@@ -74,7 +74,7 @@
           "id": "ff0ad7f0-034c-473a-94c0-ebe6d361ef8d",
           "type": "basic.input",
           "data": {
-            "name": "Boton",
+            "name": "Button",
             "pins": [
               {
                 "index": "0",
