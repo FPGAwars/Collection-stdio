@@ -78,8 +78,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "SW2",
-                "value": "33"
+                "name": "SW1",
+                "value": "34"
               }
             ],
             "virtual": false,
@@ -171,8 +171,8 @@
           "id": "aff64e53-7618-4054-9336-a69d92a4539e",
           "type": "a20433be5bd652b5ca9dc0339207d2f694145338",
           "position": {
-            "x": 344,
-            "y": 96
+            "x": 336,
+            "y": 152
           },
           "size": {
             "width": 96,
@@ -215,8 +215,8 @@
             "readonly": true
           },
           "position": {
-            "x": 336,
-            "y": 32
+            "x": 328,
+            "y": 88
           },
           "size": {
             "width": 296,
@@ -405,7 +405,7 @@
           "vertices": [
             {
               "x": 520,
-              "y": 160
+              "y": 200
             }
           ]
         }
