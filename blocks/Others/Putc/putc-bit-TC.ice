@@ -45,30 +45,6 @@
           }
         },
         {
-          "id": "e787e85b-39c6-4705-a8b3-4da9c48be3ea",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "darkgreen",
-            "name": "busy",
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": 1400,
-            "y": 344
-          }
-        },
-        {
-          "id": "f1cc51c6-3ef4-496d-99cf-0ee3007a2c64",
-          "type": "basic.output",
-          "data": {
-            "name": "busy"
-          },
-          "position": {
-            "x": 1544,
-            "y": 344
-          }
-        },
-        {
           "id": "ffa2c600-075c-44a0-8b4b-dee48174f6d7",
           "type": "basic.input",
           "data": {
@@ -137,6 +113,18 @@
           "position": {
             "x": -96,
             "y": 416
+          }
+        },
+        {
+          "id": "ea1201c2-b04d-4452-9db8-2122bed865f8",
+          "type": "basic.output",
+          "data": {
+            "name": "nc",
+            "virtual": false
+          },
+          "position": {
+            "x": 1536,
+            "y": 480
           }
         },
         {
@@ -253,22 +241,23 @@
           }
         },
         {
-          "id": "c9f8400e-0111-47e7-a179-88ba9225b229",
+          "id": "1ac9dd5b-9741-4af4-963a-50cbf8c4c6be",
           "type": "basic.input",
           "data": {
-            "name": "bit",
+            "name": "txmit",
             "clock": false
           },
           "position": {
-            "x": -248,
+            "x": -240,
             "y": 656
           }
         },
         {
-          "id": "e20769a6-14bd-45fc-9ca5-2cae7d264180",
+          "id": "9fd18953-28a5-488b-be46-c1107835d885",
           "type": "basic.inputLabel",
           "data": {
-            "name": "bit",
+            "blockColor": "steelblue",
+            "name": "txmit",
             "pins": [
               {
                 "index": "0",
@@ -277,11 +266,10 @@
               }
             ],
             "virtual": true,
-            "blockColor": "steelblue",
-            "oldBlockColor": "turquoise"
+            "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": -96,
+            "x": -88,
             "y": 656
           }
         },
@@ -347,23 +335,22 @@
           }
         },
         {
-          "id": "1ac9dd5b-9741-4af4-963a-50cbf8c4c6be",
+          "id": "c9f8400e-0111-47e7-a179-88ba9225b229",
           "type": "basic.input",
           "data": {
-            "name": "txmit",
+            "name": "bit",
             "clock": false
           },
           "position": {
             "x": -248,
-            "y": 776
+            "y": 784
           }
         },
         {
-          "id": "9fd18953-28a5-488b-be46-c1107835d885",
+          "id": "e20769a6-14bd-45fc-9ca5-2cae7d264180",
           "type": "basic.inputLabel",
           "data": {
-            "blockColor": "steelblue",
-            "name": "txmit",
+            "name": "bit",
             "pins": [
               {
                 "index": "0",
@@ -372,11 +359,12 @@
               }
             ],
             "virtual": true,
-            "oldBlockColor": "fuchsia"
+            "blockColor": "steelblue",
+            "oldBlockColor": "turquoise"
           },
           "position": {
             "x": -96,
-            "y": 776
+            "y": 784
           }
         },
         {
@@ -430,39 +418,6 @@
           }
         },
         {
-          "id": "1a5da8e4-432a-45a4-bec5-ca2d86948c8d",
-          "type": "basic.input",
-          "data": {
-            "name": "next",
-            "clock": false
-          },
-          "position": {
-            "x": -248,
-            "y": 888
-          }
-        },
-        {
-          "id": "3ff0e525-5369-4044-98eb-455786f03846",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "next",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "oldBlockColor": "steelblue"
-          },
-          "position": {
-            "x": -96,
-            "y": 888
-          }
-        },
-        {
           "id": "5154fe97-03a0-40b8-8d74-de317fdc1c8b",
           "type": "basic.outputLabel",
           "data": {
@@ -488,6 +443,39 @@
           }
         },
         {
+          "id": "1a5da8e4-432a-45a4-bec5-ca2d86948c8d",
+          "type": "basic.input",
+          "data": {
+            "name": "next",
+            "clock": false
+          },
+          "position": {
+            "x": -248,
+            "y": 960
+          }
+        },
+        {
+          "id": "3ff0e525-5369-4044-98eb-455786f03846",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "next",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "oldBlockColor": "steelblue"
+          },
+          "position": {
+            "x": -96,
+            "y": 960
+          }
+        },
+        {
           "id": "61d83a78-45c4-4c79-abfb-cb792c3aac7f",
           "type": "basic.outputLabel",
           "data": {
@@ -508,8 +496,8 @@
             "name": "done"
           },
           "position": {
-            "x": 1400,
-            "y": 1000
+            "x": 1392,
+            "y": 1008
           }
         },
         {
@@ -519,8 +507,44 @@
             "name": "done"
           },
           "position": {
-            "x": 1560,
-            "y": 1000
+            "x": 1552,
+            "y": 1008
+          }
+        },
+        {
+          "id": "e787e85b-39c6-4705-a8b3-4da9c48be3ea",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "darkgreen",
+            "name": "busy",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 1400,
+            "y": 1096
+          }
+        },
+        {
+          "id": "f1cc51c6-3ef4-496d-99cf-0ee3007a2c64",
+          "type": "basic.output",
+          "data": {
+            "name": "busy"
+          },
+          "position": {
+            "x": 1544,
+            "y": 1096
+          }
+        },
+        {
+          "id": "6be069df-20f0-47ab-88ed-3140dd163251",
+          "type": "basic.output",
+          "data": {
+            "name": "nc",
+            "virtual": false
+          },
+          "position": {
+            "x": 1552,
+            "y": 1248
           }
         },
         {
@@ -685,8 +709,8 @@
             "readonly": true
           },
           "position": {
-            "x": 1552,
-            "y": 608
+            "x": 1568,
+            "y": 600
           },
           "size": {
             "width": 168,
@@ -718,7 +742,7 @@
           },
           "position": {
             "x": -224,
-            "y": 616
+            "y": 744
           },
           "size": {
             "width": 208,
@@ -733,8 +757,8 @@
             "readonly": true
           },
           "position": {
-            "x": -184,
-            "y": 728
+            "x": -176,
+            "y": 608
           },
           "size": {
             "width": 200,
@@ -750,7 +774,7 @@
           },
           "position": {
             "x": -232,
-            "y": 856
+            "y": 928
           },
           "size": {
             "width": 248,
@@ -915,6 +939,38 @@
           "size": {
             "width": 184,
             "height": 56
+          }
+        },
+        {
+          "id": "b8a141a2-8d4f-4e95-ad98-469ce0656978",
+          "type": "basic.info",
+          "data": {
+            "info": "Not connected",
+            "readonly": true
+          },
+          "position": {
+            "x": 1512,
+            "y": 456
+          },
+          "size": {
+            "width": 168,
+            "height": 48
+          }
+        },
+        {
+          "id": "682aaed0-dda2-4727-a263-b99b4847dfc6",
+          "type": "basic.info",
+          "data": {
+            "info": "Not connected",
+            "readonly": true
+          },
+          "position": {
+            "x": 1536,
+            "y": 1208
+          },
+          "size": {
+            "width": 168,
+            "height": 48
           }
         }
       ],
