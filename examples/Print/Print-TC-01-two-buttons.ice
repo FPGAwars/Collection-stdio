@@ -222,8 +222,8 @@
             "readonly": true
           },
           "position": {
-            "x": -600,
-            "y": 280
+            "x": -744,
+            "y": 256
           },
           "size": {
             "width": 384,
@@ -272,6 +272,22 @@
           "size": {
             "width": 192,
             "height": 40
+          }
+        },
+        {
+          "id": "b14d3d6b-ff3a-4d91-b963-9f2831203270",
+          "type": "basic.info",
+          "data": {
+            "info": "The messages to be printed should be ASCII codes in  \nhexadecimal values, ended with 00  \n\nThis can be obtained executing this line in python3  \n\n```pythonn\nprint(\" \".join([\"{:02X}\".format(ord(i)) for i in \"Message\"]) + \" 00\")\n```",
+            "readonly": true
+          },
+          "position": {
+            "x": -240,
+            "y": 240
+          },
+          "size": {
+            "width": 576,
+            "height": 144
           }
         }
       ],
