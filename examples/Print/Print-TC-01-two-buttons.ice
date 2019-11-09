@@ -140,12 +140,12 @@
             "format": 10
           },
           "position": {
-            "x": -224,
+            "x": -416,
             "y": 480
           },
           "size": {
-            "width": 128,
-            "height": 72
+            "width": 304,
+            "height": 64
           }
         },
         {
@@ -158,12 +158,12 @@
             "format": 10
           },
           "position": {
-            "x": 0,
+            "x": -48,
             "y": 480
           },
           "size": {
-            "width": 128,
-            "height": 72
+            "width": 280,
+            "height": 64
           }
         },
         {
@@ -266,7 +266,7 @@
             "readonly": true
           },
           "position": {
-            "x": -208,
+            "x": -352,
             "y": 440
           },
           "size": {
