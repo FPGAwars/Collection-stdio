@@ -319,6 +319,22 @@
             "width": 144,
             "height": 72
           }
+        },
+        {
+          "id": "580da4ac-32d4-462b-8d99-2f36350b0738",
+          "type": "basic.info",
+          "data": {
+            "info": "Send the 1-bit input  \nto the 4 outputs  ",
+            "readonly": true
+          },
+          "position": {
+            "x": 856,
+            "y": 496
+          },
+          "size": {
+            "width": 184,
+            "height": 56
+          }
         }
       ],
       "wires": [
