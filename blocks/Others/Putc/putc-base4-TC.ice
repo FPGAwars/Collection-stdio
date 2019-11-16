@@ -279,20 +279,8 @@
             "blockColor": "steelblue",
             "name": "n",
             "range": "[1:0]",
-            "pins": [
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "oldBlockColor": "deepskyblue"
+            "oldBlockColor": "deepskyblue",
+            "size": 2
           },
           "position": {
             "x": 920,
@@ -366,20 +354,8 @@
           "data": {
             "name": "n",
             "range": "[1:0]",
-            "pins": [
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
-            "clock": false
+            "clock": false,
+            "size": 2
           },
           "position": {
             "x": -248,
@@ -572,7 +548,7 @@
           "data": {
             "name": "",
             "value": "'b0011_00",
-            "local": false
+            "local": true
           },
           "position": {
             "x": 912,
