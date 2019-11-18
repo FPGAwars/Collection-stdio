@@ -420,7 +420,7 @@
           "type": "basic.memory",
           "data": {
             "name": "Initial-Question",
-            "list": "53 74 61 72 74 20 74 68 65 20 74 65 73 74 20 63 69 72 63 75 69 74 3F 00",
+            "list": "53 74 61 72 74 20 74 68 65 20 74 65 73 74 20 63 69 72 63 75 69 74 20 28 79 2F 6E 29 3F 20 00",
             "local": false,
             "format": 10
           },
@@ -738,138 +738,6 @@
         {
           "source": {
             "block": "44391ad2-d325-40db-8b6b-839f86c7846c",
-            "port": "42306dfc-8702-4c9a-98d6-56b4c86fff21"
-          },
-          "target": {
-            "block": "ac3c76c1-f7df-4a64-a378-e44ce7a069f1",
-            "port": "inlabel"
-          }
-        },
-        {
-          "source": {
-            "block": "bcb3e269-ad5a-47b0-ba99-195c8281813b",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "afea662f-ed89-4d85-b95f-f4dd28807ae4",
-            "port": "76a8e66b-0219-46b0-9c07-af73345345e5"
-          }
-        },
-        {
-          "source": {
-            "block": "eb1576e7-6a91-446e-97d8-051dce81c2d0",
-            "port": "7c742596-7ea8-430b-ad47-970264686100"
-          },
-          "target": {
-            "block": "728badad-39f2-455d-8515-5bde39c746fd",
-            "port": "inlabel"
-          }
-        },
-        {
-          "source": {
-            "block": "c7417de9-772e-4711-a7bd-d9a63a0686cf",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "fdbc5b70-6f9f-46bc-9a8e-3c55fafa0b91",
-            "port": "3ae2d46d-7981-497a-899f-b60bfae0f43e"
-          }
-        },
-        {
-          "source": {
-            "block": "eb1576e7-6a91-446e-97d8-051dce81c2d0",
-            "port": "e90510f9-6f7f-431f-bc55-aa36b2bbf13d"
-          },
-          "target": {
-            "block": "ad5bfd65-d10c-4a3a-8103-9225fe1e63da",
-            "port": "inlabel"
-          }
-        },
-        {
-          "source": {
-            "block": "789abb8a-00ae-45bf-973f-cc08b17d40eb",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "663242d2-8c35-4b2d-875e-63f04d3fa240",
-            "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
-          }
-        },
-        {
-          "source": {
-            "block": "e7e1511d-cbfe-4ee9-83e6-75d55c7e9762",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "663242d2-8c35-4b2d-875e-63f04d3fa240",
-            "port": "76a8e66b-0219-46b0-9c07-af73345345e5"
-          }
-        },
-        {
-          "source": {
-            "block": "d923be6e-ecbf-4f97-94ee-50337fa2003a",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "aca5be58-eec1-49c2-afbc-a6c3ecbcbe74",
-            "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "00c9e834-7d0a-414c-9cb8-c96994fa9209",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "aca5be58-eec1-49c2-afbc-a6c3ecbcbe74",
-            "port": "76a8e66b-0219-46b0-9c07-af73345345e5"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "afea662f-ed89-4d85-b95f-f4dd28807ae4",
-            "port": "233059d5-8ab7-4c63-8dab-0c6af3a1dc28"
-          },
-          "target": {
-            "block": "fb4dced3-5e8a-48de-bebd-8cfadee90945",
-            "port": "inlabel"
-          }
-        },
-        {
-          "source": {
-            "block": "18a7ea43-fc01-40ea-bdf1-f99aa147cc91",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "adcdf4bb-9dbc-4060-97d1-0535928f86a2",
-            "port": "3ae2d46d-7981-497a-899f-b60bfae0f43e"
-          }
-        },
-        {
-          "source": {
-            "block": "3bb9917d-7cfb-4274-bf30-0f03ceaab2a4",
-            "port": "8f943c4a-ea0c-4094-b9b5-d794d6b8a22c"
-          },
-          "target": {
-            "block": "16fbf506-8440-47d7-bf6e-52c40d07a443",
-            "port": "inlabel"
-          }
-        },
-        {
-          "source": {
-            "block": "d20def1f-63fd-429f-8e24-69ec08488ff7",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "adcdf4bb-9dbc-4060-97d1-0535928f86a2",
-            "port": "86eb8c81-17fc-4371-bd21-51f429191f3c"
-          }
-        },
-        {
-          "source": {
-            "block": "44391ad2-d325-40db-8b6b-839f86c7846c",
             "port": "09701eaa-8d79-487f-b003-267e04095bb1"
           },
           "target": {
@@ -920,6 +788,26 @@
         },
         {
           "source": {
+            "block": "44391ad2-d325-40db-8b6b-839f86c7846c",
+            "port": "42306dfc-8702-4c9a-98d6-56b4c86fff21"
+          },
+          "target": {
+            "block": "ac3c76c1-f7df-4a64-a378-e44ce7a069f1",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "bcb3e269-ad5a-47b0-ba99-195c8281813b",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "afea662f-ed89-4d85-b95f-f4dd28807ae4",
+            "port": "76a8e66b-0219-46b0-9c07-af73345345e5"
+          }
+        },
+        {
+          "source": {
             "block": "b68d9d9d-c774-4bc3-837c-9d212ce49f45",
             "port": "b82422cd-6ac3-4b32-a8b8-3aff2a066775"
           },
@@ -957,6 +845,26 @@
           "target": {
             "block": "8f99e7c3-09a3-4c00-9657-1bf3b4c1891a",
             "port": "49a24d5e-2dd4-4b5d-bb0e-6718a59d9a38"
+          }
+        },
+        {
+          "source": {
+            "block": "eb1576e7-6a91-446e-97d8-051dce81c2d0",
+            "port": "7c742596-7ea8-430b-ad47-970264686100"
+          },
+          "target": {
+            "block": "728badad-39f2-455d-8515-5bde39c746fd",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "c7417de9-772e-4711-a7bd-d9a63a0686cf",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "fdbc5b70-6f9f-46bc-9a8e-3c55fafa0b91",
+            "port": "3ae2d46d-7981-497a-899f-b60bfae0f43e"
           }
         },
         {
@@ -1048,12 +956,64 @@
         },
         {
           "source": {
+            "block": "eb1576e7-6a91-446e-97d8-051dce81c2d0",
+            "port": "e90510f9-6f7f-431f-bc55-aa36b2bbf13d"
+          },
+          "target": {
+            "block": "ad5bfd65-d10c-4a3a-8103-9225fe1e63da",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "789abb8a-00ae-45bf-973f-cc08b17d40eb",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "663242d2-8c35-4b2d-875e-63f04d3fa240",
+            "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
+          }
+        },
+        {
+          "source": {
+            "block": "e7e1511d-cbfe-4ee9-83e6-75d55c7e9762",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "663242d2-8c35-4b2d-875e-63f04d3fa240",
+            "port": "76a8e66b-0219-46b0-9c07-af73345345e5"
+          }
+        },
+        {
+          "source": {
             "block": "491dea82-3fbe-4f34-a92a-feff9892a41d",
             "port": "memory-out"
           },
           "target": {
             "block": "aca5be58-eec1-49c2-afbc-a6c3ecbcbe74",
             "port": "5d0d6f3b-d975-45b0-8d71-652f02718d9c"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "d923be6e-ecbf-4f97-94ee-50337fa2003a",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "aca5be58-eec1-49c2-afbc-a6c3ecbcbe74",
+            "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "00c9e834-7d0a-414c-9cb8-c96994fa9209",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "aca5be58-eec1-49c2-afbc-a6c3ecbcbe74",
+            "port": "76a8e66b-0219-46b0-9c07-af73345345e5"
           },
           "vertices": []
         },
@@ -1096,6 +1056,46 @@
           "target": {
             "block": "f71cb613-99aa-48fd-a496-709e9e8b37d5",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          }
+        },
+        {
+          "source": {
+            "block": "afea662f-ed89-4d85-b95f-f4dd28807ae4",
+            "port": "233059d5-8ab7-4c63-8dab-0c6af3a1dc28"
+          },
+          "target": {
+            "block": "fb4dced3-5e8a-48de-bebd-8cfadee90945",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "18a7ea43-fc01-40ea-bdf1-f99aa147cc91",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "adcdf4bb-9dbc-4060-97d1-0535928f86a2",
+            "port": "3ae2d46d-7981-497a-899f-b60bfae0f43e"
+          }
+        },
+        {
+          "source": {
+            "block": "3bb9917d-7cfb-4274-bf30-0f03ceaab2a4",
+            "port": "8f943c4a-ea0c-4094-b9b5-d794d6b8a22c"
+          },
+          "target": {
+            "block": "16fbf506-8440-47d7-bf6e-52c40d07a443",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "d20def1f-63fd-429f-8e24-69ec08488ff7",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "adcdf4bb-9dbc-4060-97d1-0535928f86a2",
+            "port": "86eb8c81-17fc-4371-bd21-51f429191f3c"
           }
         },
         {
