@@ -5,6 +5,8 @@
 
 Blocks for Standad Input-Output in different devices.
 
+![](wiki/icestudio-stdio-logo.png)
+
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/Collection-stdio/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/Collection-stdio/archive/master.zip)
