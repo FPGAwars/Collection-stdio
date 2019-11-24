@@ -212,7 +212,7 @@
           "id": "d6c08e81-8f37-40cb-8b59-73c93adf57ec",
           "type": "basic.info",
           "data": {
-            "info": "# PUTC-CHAR-TC: Example 6\n\nExample of chaining the putc-char block with the  \nputc-bit block. The state of the button 1 is  \nprinted on the console every 100ms\n\nFirst the state is printed, followed by a New line\n\n",
+            "info": "# PUTC-CHAR: Example 6\n\nExample of chaining the putc-char block with the  \nputc-bit block. The state of the button 1 is  \nprinted on the console every 100ms\n\nFirst the state is printed, followed by a New line\n\n",
             "readonly": true
           },
           "position": {
@@ -332,37 +332,6 @@
       "wires": [
         {
           "source": {
-            "block": "7d6f5148-4a34-4d43-9344-603f80e9100b",
-            "port": "93defa79-7f79-4614-8e5b-17ceacc8c7cf",
-            "size": 10
-          },
-          "target": {
-            "block": "f75bae0e-ac1d-4f02-8ea2-0d9c29e06be9",
-            "port": "inlabel"
-          },
-          "vertices": [],
-          "size": 10
-        },
-        {
-          "source": {
-            "block": "37ec0688-b4a6-4724-bdce-1d8c38a05d9e",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "3ade7a18-ebc2-49df-b6e0-b691991a1d18",
-            "port": "5ca95e52-a8d3-49b1-87c8-0df64d2a118a",
-            "size": 10
-          },
-          "vertices": [
-            {
-              "x": 608,
-              "y": 512
-            }
-          ],
-          "size": 10
-        },
-        {
-          "source": {
             "block": "8396087a-9028-4793-8532-194790ae3634",
             "port": "out"
           },
@@ -390,6 +359,18 @@
             "block": "537cebb9-6263-43ee-802f-e123b9bc0888",
             "port": "136e8d6d-892a-4f14-8d6d-0c5bc6c3e844"
           }
+        },
+        {
+          "source": {
+            "block": "7d6f5148-4a34-4d43-9344-603f80e9100b",
+            "port": "93defa79-7f79-4614-8e5b-17ceacc8c7cf"
+          },
+          "target": {
+            "block": "f75bae0e-ac1d-4f02-8ea2-0d9c29e06be9",
+            "port": "inlabel"
+          },
+          "vertices": [],
+          "size": 10
         },
         {
           "source": {
@@ -473,6 +454,23 @@
             "block": "3ade7a18-ebc2-49df-b6e0-b691991a1d18",
             "port": "c9f8400e-0111-47e7-a179-88ba9225b229"
           }
+        },
+        {
+          "source": {
+            "block": "37ec0688-b4a6-4724-bdce-1d8c38a05d9e",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "3ade7a18-ebc2-49df-b6e0-b691991a1d18",
+            "port": "5ca95e52-a8d3-49b1-87c8-0df64d2a118a"
+          },
+          "vertices": [
+            {
+              "x": 608,
+              "y": 512
+            }
+          ],
+          "size": 10
         }
       ]
     }

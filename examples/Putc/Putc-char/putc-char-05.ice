@@ -236,7 +236,7 @@
           "id": "d6c08e81-8f37-40cb-8b59-73c93adf57ec",
           "type": "basic.info",
           "data": {
-            "info": "# PUTC-CHAR-TC: Example 5\n\nExample of use of two putc-char blocks in a chain  \nThe 'A' character is sent every second  \nWhen the button is pressed, the character '*'  \nis sent\n",
+            "info": "# PUTC-CHAR: Example 5\n\nExample of use of two putc-char blocks in a chain  \nThe 'A' character is sent every second  \nWhen the button is pressed, the character '*'  \nis sent\n",
             "readonly": true
           },
           "position": {
