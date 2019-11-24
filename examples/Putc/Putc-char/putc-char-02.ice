@@ -292,18 +292,6 @@
           }
         },
         {
-          "id": "c7b6e721-b532-4e94-8b12-d85341b22ca1",
-          "type": "753c8e71e6c29635a14348b9d095c121f4003c74",
-          "position": {
-            "x": 1096,
-            "y": 360
-          },
-          "size": {
-            "width": 96,
-            "height": 128
-          }
-        },
-        {
           "id": "20a51b06-7774-4bc0-9010-4d965f2c5ed5",
           "type": "a0b5a4505a5502893c5daed1bf6e0c3bdccc94a9",
           "position": {
@@ -313,6 +301,18 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "b109585e-64a1-44dd-93da-c7f40c0ffca1",
+          "type": "ae7cd7cc997647c6f4f9ed332bbf1849b798d4cb",
+          "position": {
+            "x": 1096,
+            "y": 360
+          },
+          "size": {
+            "width": 96,
+            "height": 128
           }
         }
       ],
@@ -402,7 +402,7 @@
             "port": "e1867524-d773-43bb-87b4-1dfa3260ef70"
           },
           "target": {
-            "block": "c7b6e721-b532-4e94-8b12-d85341b22ca1",
+            "block": "b109585e-64a1-44dd-93da-c7f40c0ffca1",
             "port": "8c3ce21f-2214-489f-853a-d60a223034da"
           },
           "size": 10
@@ -413,13 +413,13 @@
             "port": "233059d5-8ab7-4c63-8dab-0c6af3a1dc28"
           },
           "target": {
-            "block": "c7b6e721-b532-4e94-8b12-d85341b22ca1",
+            "block": "b109585e-64a1-44dd-93da-c7f40c0ffca1",
             "port": "1ac9dd5b-9741-4af4-963a-50cbf8c4c6be"
           }
         },
         {
           "source": {
-            "block": "c7b6e721-b532-4e94-8b12-d85341b22ca1",
+            "block": "b109585e-64a1-44dd-93da-c7f40c0ffca1",
             "port": "9aa5255a-60da-463d-ba87-d4f96456d802"
           },
           "target": {
@@ -434,7 +434,7 @@
             "port": "ad29e130-c17a-4544-9237-4c72551ccbeb"
           },
           "target": {
-            "block": "c7b6e721-b532-4e94-8b12-d85341b22ca1",
+            "block": "b109585e-64a1-44dd-93da-c7f40c0ffca1",
             "port": "72632c73-fe18-42b3-b81f-46999ddfdb20"
           },
           "size": 8
@@ -4478,13 +4478,89 @@
         }
       }
     },
-    "753c8e71e6c29635a14348b9d095c121f4003c74": {
+    "a0b5a4505a5502893c5daed1bf6e0c3bdccc94a9": {
+      "package": {
+        "name": "Valor_ASCII-LF",
+        "version": "0.0.1",
+        "description": "Código ASCII del carácter LF",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22288.602%22%20height=%22196.266%22%20viewBox=%220%200%20270.56436%20183.99982%22%3E%3Cg%20font-weight=%22400%22%20font-family=%22Ubuntu%20Mono%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22315.781%22%20y=%22648.355%22%20font-size=%228.781%22%20fill=%22green%22%20stroke-width=%22.732%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22315.781%22%20y=%22648.355%22%20style=%22line-height:1.25%22%20font-size=%22120.833%22%3E%5Cn%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22302.767%22%20y=%22729.805%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22302.767%22%20y=%22729.805%22%20style=%22line-height:1.25%22%20font-size=%2269.145%22%3E00001010%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22449.072%22%20y=%22668.437%22%20fill=%22#00f%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22449.072%22%20y=%22668.437%22%20style=%22line-height:1.25%22%20font-size=%2283.077%22%3E0Ah%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22493.919%22%20y=%22598.104%22%20font-size=%229.867%22%20fill=%22gray%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22493.919%22%20y=%22598.104%22%20style=%22line-height:1.25%22%20font-size=%2268.313%22%3E10%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22290.094%22%20y=%22597.818%22%20font-size=%2210.874%22%20fill=%22green%22%20stroke-width=%221.102%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22290.094%22%20y=%22597.818%22%20style=%22line-height:1.25%22%20font-size=%2275.278%22%3E&apos;%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22408.436%22%20y=%22597.818%22%20font-size=%2210.874%22%20fill=%22green%22%20stroke-width=%221.102%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22408.436%22%20y=%22597.818%22%20style=%22line-height:1.25%22%20font-size=%2275.278%22%3E&apos;%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "ad29e130-c17a-4544-9237-4c72551ccbeb",
+              "type": "basic.output",
+              "data": {
+                "name": "k",
+                "range": "[7:0]",
+                "size": 8
+              },
+              "position": {
+                "x": 928,
+                "y": 256
+              }
+            },
+            {
+              "id": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "\"\\n\"",
+                "local": true
+              },
+              "position": {
+                "x": 728,
+                "y": 152
+              }
+            },
+            {
+              "id": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
+              "type": "5ad97e1e35a295d0ec722addd6df97c806fc6b7c",
+              "position": {
+                "x": 728,
+                "y": 256
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
+                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+              }
+            },
+            {
+              "source": {
+                "block": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
+                "port": "a9d6830d-5cc7-4f63-a068-35181d2537bc"
+              },
+              "target": {
+                "block": "ad29e130-c17a-4544-9237-4c72551ccbeb",
+                "port": "in"
+              },
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    "ae7cd7cc997647c6f4f9ed332bbf1849b798d4cb": {
       "package": {
         "name": "putc-char",
         "version": "0.1",
         "description": "Transmit one character to the STDOUT bus",
         "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20height=%22604.974%22%20width=%22433.95%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22red%22%20fill-rule=%22evenodd%22%20stroke=%22red%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M221.062%20387.525c-17.751%200-32.152%2014.4-32.152%2032.165%200%2017.745%2014.4%2032.177%2032.152%2032.177%2017.758%200%2032.053-14.432%2032.053-32.177%200-17.764-14.295-32.165-32.053-32.165zm64.466%2050.642l-5.795%2013.96%2010.336%2020.302%201.366%202.68-14.333%2014.333-23.515-11.106-13.96%205.733-7.086%2021.69-.906%202.88h-20.258l-8.767-24.483-13.96-5.758-20.333%2010.312-2.68%201.34-14.326-14.32%2011.093-23.528-5.751-13.948-21.655-7.073-2.873-.931v-20.246l24.502-8.78%205.752-13.935-10.306-20.345-1.359-2.668%2014.308-14.308%2023.547%2011.088%2013.941-5.764%207.08-21.679.912-2.872h20.252l8.773%2024.514%2013.923%205.764%2020.339-10.318%202.705-1.36%2014.32%2014.309-11.094%2023.509%205.733%2013.967%2021.717%207.079%202.854.912v20.24z%22%20fill=%22#00f%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%20-272.686%20144.52)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%22124.309%22%20y=%22603.6%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%22124.309%22%20y=%22603.6%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EChar%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2294.134%22%20y=%2264.948%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2294.134%22%20y=%2264.948%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EPUTC%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M118.652%20244.145h134.3%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%2218%22%20marker-end=%22url(#a)%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20137.299)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2279.938%22%20y=%22186.874%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2279.938%22%20y=%22186.874%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Estdout%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20101.592h429.559v199.593H1.5z%22/%3E%3C/svg%3E",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20height=%22613.166%22%20width=%22433.95%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22red%22%20fill-rule=%22evenodd%22%20stroke=%22red%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M221.062%20395.717c-17.751%200-32.152%2014.401-32.152%2032.165%200%2017.745%2014.4%2032.177%2032.152%2032.177%2017.758%200%2032.053-14.432%2032.053-32.177%200-17.764-14.295-32.165-32.053-32.165zm64.466%2050.642l-5.795%2013.96%2010.336%2020.302%201.366%202.68-14.333%2014.333-23.515-11.106-13.96%205.733-7.086%2021.691-.906%202.88h-20.258l-8.767-24.484-13.96-5.758-20.333%2010.312-2.68%201.34-14.326-14.32%2011.093-23.528-5.751-13.948-21.655-7.073-2.873-.93v-20.246l24.502-8.78%205.752-13.935-10.306-20.345-1.359-2.668%2014.308-14.308%2023.547%2011.088%2013.941-5.764%207.08-21.68.912-2.872h20.252l8.773%2024.514%2013.923%205.764%2020.339-10.318%202.705-1.359%2014.32%2014.308-11.094%2023.51%205.733%2013.966%2021.717%207.08%202.854.911v20.24z%22%20fill=%22#00f%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%20-272.686%20152.713)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%22124.309%22%20y=%22611.792%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%22124.309%22%20y=%22611.792%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EChar%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2294.134%22%20y=%2273.141%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2294.134%22%20y=%2273.141%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EPUTC%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M118.652%20252.337h134.3%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%2218%22%20marker-end=%22url(#a)%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20145.491)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2279.938%22%20y=%22195.066%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2279.938%22%20y=%22195.066%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Estdout%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20109.784h429.559v199.593H1.5z%22/%3E%3Cpath%20d=%22M429.878%2018.574V1.5h-22.311%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22round%22/%3E%3C/svg%3E",
         "otid": 1571979442657
       },
       "design": {
@@ -5440,82 +5516,6 @@
               },
               "vertices": [],
               "size": 10
-            }
-          ]
-        }
-      }
-    },
-    "a0b5a4505a5502893c5daed1bf6e0c3bdccc94a9": {
-      "package": {
-        "name": "Valor_ASCII-LF",
-        "version": "0.0.1",
-        "description": "Código ASCII del carácter LF",
-        "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22288.602%22%20height=%22196.266%22%20viewBox=%220%200%20270.56436%20183.99982%22%3E%3Cg%20font-weight=%22400%22%20font-family=%22Ubuntu%20Mono%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22315.781%22%20y=%22648.355%22%20font-size=%228.781%22%20fill=%22green%22%20stroke-width=%22.732%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22315.781%22%20y=%22648.355%22%20style=%22line-height:1.25%22%20font-size=%22120.833%22%3E%5Cn%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22302.767%22%20y=%22729.805%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22302.767%22%20y=%22729.805%22%20style=%22line-height:1.25%22%20font-size=%2269.145%22%3E00001010%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22449.072%22%20y=%22668.437%22%20fill=%22#00f%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22449.072%22%20y=%22668.437%22%20style=%22line-height:1.25%22%20font-size=%2283.077%22%3E0Ah%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22493.919%22%20y=%22598.104%22%20font-size=%229.867%22%20fill=%22gray%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22493.919%22%20y=%22598.104%22%20style=%22line-height:1.25%22%20font-size=%2268.313%22%3E10%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22290.094%22%20y=%22597.818%22%20font-size=%2210.874%22%20fill=%22green%22%20stroke-width=%221.102%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22290.094%22%20y=%22597.818%22%20style=%22line-height:1.25%22%20font-size=%2275.278%22%3E&apos;%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22408.436%22%20y=%22597.818%22%20font-size=%2210.874%22%20fill=%22green%22%20stroke-width=%221.102%22%20transform=%22translate(-305.602%20-546.704)%22%3E%3Ctspan%20x=%22408.436%22%20y=%22597.818%22%20style=%22line-height:1.25%22%20font-size=%2275.278%22%3E&apos;%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "ad29e130-c17a-4544-9237-4c72551ccbeb",
-              "type": "basic.output",
-              "data": {
-                "name": "k",
-                "range": "[7:0]",
-                "size": 8
-              },
-              "position": {
-                "x": 928,
-                "y": 256
-              }
-            },
-            {
-              "id": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
-              "type": "basic.constant",
-              "data": {
-                "name": "",
-                "value": "\"\\n\"",
-                "local": true
-              },
-              "position": {
-                "x": 728,
-                "y": 152
-              }
-            },
-            {
-              "id": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
-              "type": "5ad97e1e35a295d0ec722addd6df97c806fc6b7c",
-              "position": {
-                "x": 728,
-                "y": 256
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
-                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
-              }
-            },
-            {
-              "source": {
-                "block": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
-                "port": "a9d6830d-5cc7-4f63-a068-35181d2537bc"
-              },
-              "target": {
-                "block": "ad29e130-c17a-4544-9237-4c72551ccbeb",
-                "port": "in"
-              },
-              "size": 8
             }
           ]
         }
