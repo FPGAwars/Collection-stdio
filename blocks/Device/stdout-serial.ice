@@ -156,8 +156,7 @@
           "data": {
             "name": "rdy",
             "range": "[9:0]",
-            "size": 10,
-            "virtual": false
+            "size": 10
           },
           "position": {
             "x": 1336,
@@ -264,6 +263,19 @@
           "position": {
             "x": 256,
             "y": 600
+          }
+        },
+        {
+          "id": "d4a02852-2578-4c4d-b7e2-0708b0ef9794",
+          "type": "basic.constant",
+          "data": {
+            "name": "",
+            "value": "115200",
+            "local": false
+          },
+          "position": {
+            "x": 680,
+            "y": 320
           }
         },
         {
@@ -465,6 +477,16 @@
             "port": "62f60de5-6d65-45f1-a57a-96daf57df585"
           },
           "size": 10
+        },
+        {
+          "source": {
+            "block": "d4a02852-2578-4c4d-b7e2-0708b0ef9794",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "14c3339e-971e-477c-bac8-b820c7d5698a",
+            "port": "671d0b4d-317d-4aef-8422-8b9a400211a4"
+          }
         }
       ]
     }
