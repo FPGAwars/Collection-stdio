@@ -5,7 +5,7 @@
     "version": "0.1",
     "description": "When activated, it waits for a bit to be received codified in the '0' and '1' symbols by default. The received character is echoed (if valid)",
     "author": "Juan González-Gómez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20height=%221169.78%22%20width=%22433.95%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22red%22%20fill-rule=%22evenodd%22%20stroke=%22red%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M221.062%20814.836c-17.751%200-32.152%2014.4-32.152%2032.164%200%2017.746%2014.4%2032.177%2032.152%2032.177%2017.758%200%2032.053-14.432%2032.053-32.177%200-17.763-14.295-32.164-32.053-32.164zm64.466%2050.642l-5.795%2013.96%2010.336%2020.301%201.366%202.68-14.333%2014.333-23.515-11.106-13.96%205.733-7.086%2021.692-.906%202.879h-20.258l-8.767-24.484-13.96-5.758-20.333%2010.313-2.68%201.34-14.326-14.32%2011.093-23.528-5.751-13.948-21.655-7.074-2.873-.93v-20.246l24.502-8.78%205.752-13.935-10.306-20.345-1.359-2.668%2014.308-14.308%2023.547%2011.088%2013.941-5.764%207.08-21.68.912-2.872h20.252l8.773%2024.515%2013.923%205.764%2020.339-10.319%202.705-1.358%2014.32%2014.307-11.094%2023.51%205.733%2013.966%2021.717%207.08%202.854.912v20.24z%22%20fill=%22#00f%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%20-272.686%20348.764)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%221112.716%22%20x=%22112.545%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%221112.716%22%20x=%22112.545%22%20font-weight=%22500%22%3Eecho%3C/tspan%3E%3C/text%3E%3Ctext%20y=%2273.141%22%20x=%2294.134%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%225.725%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%2273.141%22%20x=%2294.134%22%20font-weight=%22500%22%3EINPUT%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M118.652%20229.326h134.3%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%2218%22%20marker-end=%22url(#a)%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20514.711)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%22179.208%22%20x=%2280.694%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2271.169%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20stroke-width=%224.448%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%22179.208%22%20x=%2280.694%22%20font-weight=%22500%22%3Estdout%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20109.784h429.559V287.9H1.5z%22/%3E%3Cpath%20d=%22M429.878%2018.574V1.5h-22.311M24.308%201109.985v58.295H85.67%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22round%22/%3E%3Cpath%20d=%22M118.652%20419.924h134.3%22%20fill=%22green%22%20stroke=%22green%22%20stroke-width=%2218%22%20marker-end=%22url(#b)%22/%3E%3Ccircle%20cx=%22382.792%22%20cy=%22930.24%22%20r=%2247.105%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%221.969%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M403.42%20957.179h-10.846v-60.908h-19.688v60.431H361.07%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%224.921%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%22113.344%22%20y=%22370.627%22%20font-weight=%22400%22%20font-size=%2268.273%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%20stroke-width=%224.267%22%3E%3Ctspan%20x=%22113.344%22%20y=%22370.627%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Estdin%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20303.45h429.559v167.378H1.5z%22/%3E%3C/svg%3E",
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20height=%221169.78%22%20width=%22433.95%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22red%22%20fill-rule=%22evenodd%22%20stroke=%22red%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M221.062%20773.615c-17.751%200-32.152%2014.401-32.152%2032.165%200%2017.745%2014.4%2032.177%2032.152%2032.177%2017.758%200%2032.053-14.432%2032.053-32.177%200-17.764-14.295-32.165-32.053-32.165zm64.466%2050.642l-5.795%2013.96%2010.336%2020.302%201.366%202.68-14.333%2014.333-23.515-11.106-13.96%205.733-7.086%2021.691-.906%202.88h-20.258l-8.767-24.484-13.96-5.758-20.333%2010.312-2.68%201.34-14.326-14.32%2011.093-23.528-5.751-13.948-21.655-7.073-2.873-.93v-20.246l24.502-8.78%205.752-13.935-10.306-20.345-1.359-2.668%2014.308-14.308%2023.547%2011.087%2013.941-5.764%207.08-21.679.912-2.872h20.252l8.773%2024.514%2013.923%205.764%2020.339-10.318%202.705-1.359%2014.32%2014.308-11.094%2023.51%205.733%2013.966%2021.717%207.08%202.854.911v20.24z%22%20fill=%22#00f%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%20-272.686%20348.764)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%221006.411%22%20x=%22112.545%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%221006.411%22%20x=%22112.545%22%20font-weight=%22500%22%3Eecho%3C/tspan%3E%3C/text%3E%3Ctext%20y=%2273.141%22%20x=%2294.134%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%225.725%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%2273.141%22%20x=%2294.134%22%20font-weight=%22500%22%3EINPUT%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M118.652%20229.326h134.3%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%2218%22%20marker-end=%22url(#a)%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20347.66)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%22179.208%22%20x=%2280.694%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2271.169%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20stroke-width=%224.448%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%22179.208%22%20x=%2280.694%22%20font-weight=%22500%22%3Estdout%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20109.784h429.559V287.9H1.5z%22/%3E%3Cpath%20d=%22M429.878%2018.574V1.5h-22.311M24.308%201109.985v58.295H85.67%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22round%22/%3E%3Cpath%20d=%22M118.652%20419.924h134.3%22%20fill=%22green%22%20stroke=%22green%22%20stroke-width=%2218%22%20marker-end=%22url(#b)%22/%3E%3Ccircle%20cx=%22382.792%22%20cy=%221118.986%22%20r=%2247.105%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%221.969%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M403.42%201145.925h-10.846v-60.908h-19.688v60.43H361.07%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%224.921%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%22113.344%22%20y=%22370.627%22%20font-weight=%22400%22%20font-size=%2268.273%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%20stroke-width=%224.267%22%3E%3Ctspan%20x=%22113.344%22%20y=%22370.627%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Estdin%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20303.45h429.559v167.378H1.5z%22/%3E%3C/svg%3E",
     "otid": 1574099969338
   },
   "design": {
@@ -404,6 +404,29 @@
           }
         },
         {
+          "id": "f397abdb-755b-4e24-b52a-228c652bec9f",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "done"
+          },
+          "position": {
+            "x": 2176,
+            "y": 568
+          }
+        },
+        {
+          "id": "d91cadf2-6037-4805-9d97-8608f08534e3",
+          "type": "basic.output",
+          "data": {
+            "name": "done"
+          },
+          "position": {
+            "x": 2336,
+            "y": 568
+          }
+        },
+        {
           "id": "83ff5f39-a6a9-40ba-bca5-d11c714425e6",
           "type": "basic.outputLabel",
           "data": {
@@ -437,51 +460,27 @@
           }
         },
         {
-          "id": "78b85095-5068-4a3a-a589-905b56d56bde",
-          "type": "basic.output",
-          "data": {
-            "name": "bit"
-          },
-          "position": {
-            "x": 2280,
-            "y": 760
-          }
-        },
-        {
-          "id": "0d3ec7af-c7c6-4818-b5f8-fdd54bc5b7a1",
+          "id": "664a5718-6595-46e9-a584-7e105c59043a",
           "type": "basic.outputLabel",
           "data": {
-            "blockColor": "fuchsia",
-            "name": "bit",
+            "blockColor": "darkgreen",
+            "name": "busy",
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 2120,
-            "y": 760
+            "x": 2184,
+            "y": 720
           }
         },
         {
-          "id": "1ac4e080-1caa-4c64-869f-3a269ed81cfa",
+          "id": "c1782286-c9d2-4fab-8d6d-0105ab37f1af",
           "type": "basic.output",
           "data": {
-            "name": "tic"
+            "name": "busy"
           },
           "position": {
-            "x": 2280,
-            "y": 848
-          }
-        },
-        {
-          "id": "7064eb2d-e378-4129-9e99-f4a81ea8d3bd",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "tic",
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": 2120,
-            "y": 848
+            "x": 2328,
+            "y": 720
           }
         },
         {
@@ -515,6 +514,54 @@
           "position": {
             "x": 448,
             "y": 856
+          }
+        },
+        {
+          "id": "78b85095-5068-4a3a-a589-905b56d56bde",
+          "type": "basic.output",
+          "data": {
+            "name": "bit"
+          },
+          "position": {
+            "x": 2328,
+            "y": 872
+          }
+        },
+        {
+          "id": "0d3ec7af-c7c6-4818-b5f8-fdd54bc5b7a1",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "bit",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 2168,
+            "y": 872
+          }
+        },
+        {
+          "id": "1ac4e080-1caa-4c64-869f-3a269ed81cfa",
+          "type": "basic.output",
+          "data": {
+            "name": "tic"
+          },
+          "position": {
+            "x": 2328,
+            "y": 960
+          }
+        },
+        {
+          "id": "7064eb2d-e378-4129-9e99-f4a81ea8d3bd",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "tic",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 2168,
+            "y": 960
           }
         },
         {
@@ -600,29 +647,6 @@
           }
         },
         {
-          "id": "f397abdb-755b-4e24-b52a-228c652bec9f",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "done"
-          },
-          "position": {
-            "x": 2120,
-            "y": 1000
-          }
-        },
-        {
-          "id": "d91cadf2-6037-4805-9d97-8608f08534e3",
-          "type": "basic.output",
-          "data": {
-            "name": "done"
-          },
-          "position": {
-            "x": 2280,
-            "y": 1000
-          }
-        },
-        {
           "id": "e8d0954f-3aa1-47e2-b0a0-215d810b2365",
           "type": "basic.outputLabel",
           "data": {
@@ -645,30 +669,6 @@
           "position": {
             "x": 296,
             "y": 1104
-          }
-        },
-        {
-          "id": "664a5718-6595-46e9-a584-7e105c59043a",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "darkgreen",
-            "name": "busy",
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": 2128,
-            "y": 1152
-          }
-        },
-        {
-          "id": "c1782286-c9d2-4fab-8d6d-0105ab37f1af",
-          "type": "basic.output",
-          "data": {
-            "name": "busy"
-          },
-          "position": {
-            "x": 2272,
-            "y": 1152
           }
         },
         {
@@ -914,8 +914,8 @@
             "readonly": true
           },
           "position": {
-            "x": 2184,
-            "y": 1112
+            "x": 2240,
+            "y": 680
           },
           "size": {
             "width": 208,
@@ -930,8 +930,8 @@
             "readonly": true
           },
           "position": {
-            "x": 2184,
-            "y": 968
+            "x": 2240,
+            "y": 536
           },
           "size": {
             "width": 176,
@@ -946,8 +946,8 @@
             "readonly": true
           },
           "position": {
-            "x": 2200,
-            "y": 720
+            "x": 2248,
+            "y": 832
           },
           "size": {
             "width": 184,
