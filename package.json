@@ -1,6 +1,6 @@
 {
   "name": "Stdio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Blocks for Standad Input-Output in different devices",
   "keywords": "serial, io",
   "license": "GPL-2.0",
