@@ -46,8 +46,8 @@
             "clock": false
           },
           "position": {
-            "x": -160,
-            "y": 456
+            "x": -216,
+            "y": 400
           }
         },
         {
@@ -67,6 +67,26 @@
           "position": {
             "x": 584,
             "y": 520
+          }
+        },
+        {
+          "id": "2f33e254-5e74-45ae-97dd-fe307f7f0758",
+          "type": "basic.input",
+          "data": {
+            "name": "Button",
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW1",
+                "value": "34"
+              }
+            ],
+            "virtual": false,
+            "clock": false
+          },
+          "position": {
+            "x": -144,
+            "y": 720
           }
         },
         {
@@ -101,8 +121,8 @@
           "id": "55c585d2-1604-494e-8b03-94b090b84021",
           "type": "3db97e88b7f9a2a65931f3638eaa612a255dccd7",
           "position": {
-            "x": -16,
-            "y": 592
+            "x": -144,
+            "y": 536
           },
           "size": {
             "width": 96,
@@ -117,8 +137,8 @@
             "readonly": true
           },
           "position": {
-            "x": -24,
-            "y": 544
+            "x": -152,
+            "y": 488
           },
           "size": {
             "width": 224,
@@ -193,8 +213,8 @@
           "id": "48e6556e-a2e9-4ca4-8701-ffe6a0d14c25",
           "type": "74d4b91e5072d9185be6b388a4b2c8ce7254c854",
           "position": {
-            "x": -8,
-            "y": 440
+            "x": -64,
+            "y": 384
           },
           "size": {
             "width": 96,
@@ -223,6 +243,34 @@
           "size": {
             "width": 96,
             "height": 192
+          }
+        },
+        {
+          "id": "02024465-af0f-4748-a58e-2f58a4e7bc60",
+          "type": "2107ac7691a91a762c2d0be100faaabd6189973a",
+          "position": {
+            "x": 0,
+            "y": 704
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "0685aad7-f795-44e6-b939-f767913a261f",
+          "type": "basic.info",
+          "data": {
+            "info": "Abort button. The  \ninput block is stoped",
+            "readonly": true
+          },
+          "position": {
+            "x": -64,
+            "y": 640
+          },
+          "size": {
+            "width": 192,
+            "height": 56
           }
         }
       ],
@@ -268,8 +316,8 @@
           },
           "vertices": [
             {
-              "x": 152,
-              "y": 552
+              "x": 24,
+              "y": 496
             }
           ]
         },
@@ -302,6 +350,12 @@
             "block": "f791ee84-f62d-41c0-8da2-72cd7487ce9d",
             "port": "ff7271e4-4648-4759-b670-5158d3e8e10d"
           },
+          "vertices": [
+            {
+              "x": 96,
+              "y": 432
+            }
+          ],
           "size": 9
         },
         {
@@ -319,6 +373,32 @@
               "y": 384
             }
           ]
+        },
+        {
+          "source": {
+            "block": "02024465-af0f-4748-a58e-2f58a4e7bc60",
+            "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
+          },
+          "target": {
+            "block": "f791ee84-f62d-41c0-8da2-72cd7487ce9d",
+            "port": "357284e5-a4dd-49c5-b7f3-4e36a83f4a49"
+          },
+          "vertices": [
+            {
+              "x": 152,
+              "y": 656
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "2f33e254-5e74-45ae-97dd-fe307f7f0758",
+            "port": "out"
+          },
+          "target": {
+            "block": "02024465-af0f-4748-a58e-2f58a4e7bc60",
+            "port": "21bc142d-a93a-430d-b37a-326435def9f9"
+          }
         }
       ]
     }
@@ -9025,11 +9105,33 @@
               "id": "357284e5-a4dd-49c5-b7f3-4e36a83f4a49",
               "type": "basic.input",
               "data": {
-                "name": "nc",
-                "clock": false
+                "name": "stop",
+                "clock": false,
+                "virtual": false
               },
               "position": {
                 "x": 288,
+                "y": 888
+              }
+            },
+            {
+              "id": "5b65c16f-fbcf-4485-a4e3-a64bae5b5c7d",
+              "type": "basic.inputLabel",
+              "data": {
+                "blockColor": "steelblue",
+                "name": "stop",
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "",
+                    "value": ""
+                  }
+                ],
+                "virtual": true,
+                "oldBlockColor": "steelblue"
+              },
+              "position": {
+                "x": 432,
                 "y": 888
               }
             },
@@ -9116,27 +9218,6 @@
               }
             },
             {
-              "id": "114afa5f-9992-4c67-b46f-59d2eaf84aaf",
-              "type": "basic.inputLabel",
-              "data": {
-                "blockColor": "steelblue",
-                "name": "exec",
-                "pins": [
-                  {
-                    "index": "0",
-                    "name": "",
-                    "value": ""
-                  }
-                ],
-                "virtual": true,
-                "oldBlockColor": "steelblue"
-              },
-              "position": {
-                "x": 984,
-                "y": 1024
-              }
-            },
-            {
               "id": "83ff5f39-a6a9-40ba-bca5-d11c714425e6",
               "type": "basic.outputLabel",
               "data": {
@@ -9145,8 +9226,8 @@
                 "oldBlockColor": "fuchsia"
               },
               "position": {
-                "x": 664,
-                "y": 1064
+                "x": 496,
+                "y": 1032
               }
             },
             {
@@ -9183,6 +9264,20 @@
               "position": {
                 "x": 288,
                 "y": 1064
+              }
+            },
+            {
+              "id": "a2b3eee7-13ce-4d65-8237-56004ed8af09",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "steelblue",
+                "name": "stop",
+                "oldBlockColor": "fuchsia",
+                "virtual": true
+              },
+              "position": {
+                "x": 496,
+                "y": 1120
               }
             },
             {
@@ -9503,6 +9598,18 @@
                 "width": 96,
                 "height": 128
               }
+            },
+            {
+              "id": "ee6064cc-52a3-42b0-99db-22925f9f9bbe",
+              "type": "81613874c6152f06c06ed7014bf4235900cfcc30",
+              "position": {
+                "x": 656,
+                "y": 1080
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
             }
           ],
           "wires": [
@@ -9563,17 +9670,6 @@
             },
             {
               "source": {
-                "block": "5cca9341-d0d2-4431-a0d4-b713a15dc9ed",
-                "port": "aefe9248-3b3d-441b-9e65-33cda65b99dd"
-              },
-              "target": {
-                "block": "114afa5f-9992-4c67-b46f-59d2eaf84aaf",
-                "port": "inlabel"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
                 "block": "aba6ce79-a029-4c2c-8278-e0e1916d3139",
                 "port": "outlabel"
               },
@@ -9626,16 +9722,6 @@
                 "port": "in"
               },
               "vertices": []
-            },
-            {
-              "source": {
-                "block": "83ff5f39-a6a9-40ba-bca5-d11c714425e6",
-                "port": "outlabel"
-              },
-              "target": {
-                "block": "5cca9341-d0d2-4431-a0d4-b713a15dc9ed",
-                "port": "ba15eacb-1e03-4580-932b-3231703481e5"
-              }
             },
             {
               "source": {
@@ -9700,6 +9786,36 @@
                 "size": 9
               },
               "size": 9
+            },
+            {
+              "source": {
+                "block": "83ff5f39-a6a9-40ba-bca5-d11c714425e6",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "ee6064cc-52a3-42b0-99db-22925f9f9bbe",
+                "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+              }
+            },
+            {
+              "source": {
+                "block": "357284e5-a4dd-49c5-b7f3-4e36a83f4a49",
+                "port": "out"
+              },
+              "target": {
+                "block": "5b65c16f-fbcf-4485-a4e3-a64bae5b5c7d",
+                "port": "inlabel"
+              }
+            },
+            {
+              "source": {
+                "block": "a2b3eee7-13ce-4d65-8237-56004ed8af09",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "ee6064cc-52a3-42b0-99db-22925f9f9bbe",
+                "port": "97b51945-d716-4b6c-9db9-970d08541249"
+              }
             },
             {
               "source": {
@@ -9772,6 +9888,16 @@
               "target": {
                 "block": "78f0b6b8-edd0-4f0f-a4d6-360b086aa2da",
                 "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+              }
+            },
+            {
+              "source": {
+                "block": "ee6064cc-52a3-42b0-99db-22925f9f9bbe",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "5cca9341-d0d2-4431-a0d4-b713a15dc9ed",
+                "port": "ba15eacb-1e03-4580-932b-3231703481e5"
               }
             }
           ]
@@ -11138,6 +11264,159 @@
                 "port": "i"
               },
               "size": 9
+            }
+          ]
+        }
+      }
+    },
+    "2107ac7691a91a762c2d0be100faaabd6189973a": {
+      "package": {
+        "name": "Pulsador-tic",
+        "version": "0.1",
+        "description": "Detección de pulsación. Emite un tic cada vez que se aprieta el pulsador",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20width=%22293.977%22%20height=%22257.958%22%20viewBox=%220%200%2077.781366%2068.251365%22%3E%3Cdefs%3E%3ClinearGradient%20gradientTransform=%22matrix(-.013%20-.01966%20.01932%20-.01493%20151.654%20290.082)%22%20gradientUnits=%22userSpaceOnUse%22%20y2=%222300.215%22%20x2=%226069.057%22%20y1=%222538.05%22%20x1=%225466.681%22%20id=%22b%22%20xlink:href=%22#a%22/%3E%3ClinearGradient%20id=%22a%22%3E%3Cstop%20offset=%220%22%20stop-color=%22#c3875c%22/%3E%3Cstop%20offset=%22.48%22%20stop-color=%22#eccba3%22/%3E%3Cstop%20offset=%221%22%20stop-color=%22#fce0cb%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg%20transform=%22translate(138.022%20-134.888)%22%3E%3Cpath%20d=%22M-117.19%20184.278a20.69%209.094%200%200%200-13.734%202.307l-5.434.006-1.284%205.482a20.69%209.094%200%200%200-.238%201.3%2020.69%209.094%200%200%200%2020.69%209.093%2020.69%209.094%200%200%200%2020.69-9.094%2020.69%209.094%200%200%200-.029-.351h.064l-1.277-6.47-5.778.005a20.69%209.094%200%200%200-13.67-2.278z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%226.762%22%20rx=%2219.408%22%20cy=%22187.341%22%20cx=%22-117.074%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22matrix(.1018%200%200%20.10181%20-158.528%20145.536)%22%20stroke=%22#000%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-width=%222.772%22%3E%3Cellipse%20cx=%22406.087%22%20cy=%22399.216%22%20rx=%22184.221%22%20ry=%2272.858%22%20fill=%22green%22/%3E%3Cellipse%20cx=%22406.23%22%20cy=%22383.328%22%20rx=%22179.497%22%20ry=%2260.977%22%20fill=%22#0f0%22/%3E%3C/g%3E%3C/g%3E%3Cpath%20d=%22M126.16%20115.387c-1.523%201.514-2.14%203.307-2.023%205.326-.507%201.097-2.411%202.346-2.027%203.267-1.196%201.923-1.624%203.389-1.572%204.569-.544%201.24-.403%201.705-.348%202.268-2.266%203.497-4.092%208.255-5.878%2013.125-2.302%202.765-3.64%205.792-4.898%208.84-2.191%203.7-3.756%207.67-4.02%2011.394l-.265.558c2.996%203.107%204.946%201.524%207.018.747%206.637-3.112%209.504-8.52%2012.212-14.025.473-1.572%201.57-3.127%203.151-4.669%204.414-4.785%206.886-10.022%209.857-15.142.228-.428.58-1.032%201.143-1.941%201.675-1.795%203.418-4.997%205.132-7.612z%22%20fill=%22url(#b)%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22%20transform=%22translate(-90.276%20-115.233)%22/%3E%3Cpath%20d=%22M18.486%2038.911c-2.362%202.823-3.506%206.298-4.228%2010.204.518.13%201.302-.444%202.155-1.196%202.575-6.067%201.848-7.142%202.073-9.008z%22%20fill=%22#f8ecf8%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cpath%20d=%22M33.79%205.666c2.093-.057%203.853.53%205.373%201.582M31.832%208.759c2.001.286%203.946.663%205.428%201.788M30.331%2013.16c1.325-.48%203.02.099%204.83%201.005M29.98%2015.593l1.79.362%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cg%20transform=%22matrix(1.2877%200%200%201.2877%20-70.904%20-45.941)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "5340dd0d-17b9-42a2-b4d9-fbd56349f8c8",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 304,
+                "y": 96
+              }
+            },
+            {
+              "id": "b58132b2-2e39-4a85-ab5b-63bded91cecc",
+              "type": "basic.output",
+              "data": {
+                "name": "s"
+              },
+              "position": {
+                "x": 976,
+                "y": 96
+              }
+            },
+            {
+              "id": "997db8c4-b772-49d8-83e7-4427aff720e6",
+              "type": "basic.output",
+              "data": {
+                "name": "t"
+              },
+              "position": {
+                "x": 968,
+                "y": 376
+              }
+            },
+            {
+              "id": "21bc142d-a93a-430d-b37a-326435def9f9",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": false
+              },
+              "position": {
+                "x": 304,
+                "y": 376
+              }
+            },
+            {
+              "id": "7c4fa7d1-d70c-445e-b844-73a692fb95a9",
+              "type": "basic.info",
+              "data": {
+                "info": "**Pulsador-tic**",
+                "readonly": true
+              },
+              "position": {
+                "x": 496,
+                "y": -56
+              },
+              "size": {
+                "width": 152,
+                "height": 40
+              }
+            },
+            {
+              "id": "e1c281e9-6a22-456b-863e-20d2550b122c",
+              "type": "basic.code",
+              "data": {
+                "code": "// Sincronizacion. Evitar \n// problema de la metaestabilidad\n\nreg d2;\nreg r_in;\n\nalways @(posedge clk)\n d2 <= d;\n \nalways @(posedge clk)\n  r_in <= d2;\n\n\n//-- Debouncer Circuit\n//-- It produces a stable output when the\n//-- input signal is bouncing\n\nreg btn_prev = 0;\nreg btn_out_r = 0;\n\nreg [16:0] counter = 0;\n\n\nalways @(posedge clk) begin\n\n  //-- If btn_prev and btn_in are differents\n  if (btn_prev ^ r_in == 1'b1) begin\n    \n      //-- Reset the counter\n      counter <= 0;\n      \n      //-- Capture the button status\n      btn_prev <= r_in;\n  end\n    \n  //-- If no timeout, increase the counter\n  else if (counter[16] == 1'b0)\n      counter <= counter + 1;\n      \n  else\n    //-- Set the output to the stable value\n    btn_out_r <= btn_prev;\n\nend\n\n//-- Generar tic en flanco de subida del boton\nreg old;\n\nalways @(posedge clk)\n  old <= btn_out_r;\n  \nassign tic = !old & btn_out_r;\n\n//-- El estado del pulsador se saca por state\nassign state = btn_out_r;\n\n",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "d"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "state"
+                    },
+                    {
+                      "name": "tic"
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 480,
+                "y": -16
+              },
+              "size": {
+                "width": 432,
+                "height": 560
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "21bc142d-a93a-430d-b37a-326435def9f9",
+                "port": "out"
+              },
+              "target": {
+                "block": "e1c281e9-6a22-456b-863e-20d2550b122c",
+                "port": "d"
+              }
+            },
+            {
+              "source": {
+                "block": "e1c281e9-6a22-456b-863e-20d2550b122c",
+                "port": "tic"
+              },
+              "target": {
+                "block": "997db8c4-b772-49d8-83e7-4427aff720e6",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "5340dd0d-17b9-42a2-b4d9-fbd56349f8c8",
+                "port": "out"
+              },
+              "target": {
+                "block": "e1c281e9-6a22-456b-863e-20d2550b122c",
+                "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "e1c281e9-6a22-456b-863e-20d2550b122c",
+                "port": "state"
+              },
+              "target": {
+                "block": "b58132b2-2e39-4a85-ab5b-63bded91cecc",
+                "port": "in"
+              }
             }
           ]
         }
