@@ -163,6 +163,31 @@
           }
         },
         {
+          "id": "76e09552-cd81-4947-81f4-a8ec7596e7e8",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "range": "[1:0]",
+            "pins": [
+              {
+                "index": "1",
+                "name": "LED1",
+                "value": "44"
+              },
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "45"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 536,
+            "y": 320
+          }
+        },
+        {
           "id": "8ab6b90e-1f07-4187-a7cd-b5fb397cbcd2",
           "type": "basic.constant",
           "data": {
@@ -343,6 +368,22 @@
             "width": 96,
             "height": 128
           }
+        },
+        {
+          "id": "51422017-6bc1-434a-9cf3-7f39f6413f2e",
+          "type": "basic.info",
+          "data": {
+            "info": "Show the number  \nin the LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": 544,
+            "y": 264
+          },
+          "size": {
+            "width": 144,
+            "height": 48
+          }
         }
       ],
       "wires": [
@@ -478,6 +519,23 @@
             "port": "8c3ce21f-2214-489f-853a-d60a223034da"
           },
           "size": 10
+        },
+        {
+          "source": {
+            "block": "0800a3dd-eafc-4657-9ef2-95e78365d82d",
+            "port": "7a982450-c842-4aa2-8e77-43cc628266e0"
+          },
+          "target": {
+            "block": "76e09552-cd81-4947-81f4-a8ec7596e7e8",
+            "port": "in"
+          },
+          "vertices": [
+            {
+              "x": 440,
+              "y": 328
+            }
+          ],
+          "size": 2
         }
       ]
     }
