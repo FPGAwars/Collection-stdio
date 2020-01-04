@@ -155,50 +155,8 @@
           "data": {
             "name": "char",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "blockColor": "fuchsia"
+            "blockColor": "fuchsia",
+            "size": 8
           },
           "position": {
             "x": 1160,
@@ -592,6 +550,30 @@
           }
         },
         {
+          "id": "1ac4e080-1caa-4c64-869f-3a269ed81cfa",
+          "type": "basic.output",
+          "data": {
+            "name": "tic"
+          },
+          "position": {
+            "x": 1912,
+            "y": 736
+          }
+        },
+        {
+          "id": "7064eb2d-e378-4129-9e99-f4a81ea8d3bd",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "tic",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 1752,
+            "y": 736
+          }
+        },
+        {
           "id": "e912fa2a-a4e4-4319-b378-cce81ffb7b7c",
           "type": "basic.inputLabel",
           "data": {
@@ -613,58 +595,121 @@
           }
         },
         {
-          "id": "78b85095-5068-4a3a-a589-905b56d56bde",
-          "type": "basic.output",
-          "data": {
-            "name": "bit"
-          },
-          "position": {
-            "x": 1912,
-            "y": 776
-          }
-        },
-        {
-          "id": "0d3ec7af-c7c6-4818-b5f8-fdd54bc5b7a1",
+          "id": "7d24115c-4f54-489c-9729-3e7104145ed2",
           "type": "basic.outputLabel",
           "data": {
-            "blockColor": "fuchsia",
-            "name": "bit",
-            "oldBlockColor": "fuchsia"
+            "name": "char",
+            "range": "[7:0]",
+            "pins": [
+              {
+                "index": "7",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "6",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "5",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "4",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "3",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "2",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "1",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1752,
-            "y": 776
+            "y": 856
           }
         },
         {
-          "id": "1ac4e080-1caa-4c64-869f-3a269ed81cfa",
+          "id": "2de77ddf-31c0-4f41-b3c8-c7bf9eaa73f4",
           "type": "basic.output",
           "data": {
-            "name": "tic"
+            "name": "char",
+            "range": "[7:0]",
+            "pins": [
+              {
+                "index": "7",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "6",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "5",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "4",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "3",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "2",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "1",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": false
           },
           "position": {
             "x": 1912,
-            "y": 840
-          }
-        },
-        {
-          "id": "7064eb2d-e378-4129-9e99-f4a81ea8d3bd",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "tic",
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": 1752,
-            "y": 840
+            "y": 856
           }
         },
         {
           "id": "79051628-c956-41ad-b34f-7fd9b2979e5f",
           "type": "basic.info",
           "data": {
-            "info": "## INPUT-BIT-ECHO  \n\nWhen the machine is turned on, it waits for one  \nof the two symbols (default: '0' and '1') and  \ncoded them into oen bit, that is returned and  \nthe machine is turned off\n\nThe valid symbols are sent through the  \nstdout",
+            "info": "## INPUT-Printable-char-ECHO  \n\nWhen the machine is turned on, it waits for a\nprintable character, which is then returned \n\nThe printable characteres are sent through the  \nstdout",
             "readonly": true
           },
           "position": {
@@ -672,8 +717,8 @@
             "y": -336
           },
           "size": {
-            "width": 384,
-            "height": 152
+            "width": 568,
+            "height": 168
           }
         },
         {
@@ -728,12 +773,12 @@
           "id": "60e8e716-1b74-4602-863a-9c6350a9e621",
           "type": "basic.info",
           "data": {
-            "info": "Received bit",
+            "info": "Received character",
             "readonly": true
           },
           "position": {
             "x": 1832,
-            "y": 736
+            "y": 816
           },
           "size": {
             "width": 184,
@@ -894,17 +939,6 @@
         }
       ],
       "wires": [
-        {
-          "source": {
-            "block": "0d3ec7af-c7c6-4818-b5f8-fdd54bc5b7a1",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "78b85095-5068-4a3a-a589-905b56d56bde",
-            "port": "in"
-          },
-          "vertices": []
-        },
         {
           "source": {
             "block": "dc270d47-e066-4ae3-8dc8-9f69463a7d84",
@@ -1177,6 +1211,18 @@
           "target": {
             "block": "7d8e2e07-b61f-4285-8d65-ea6a89c95290",
             "port": "72632c73-fe18-42b3-b81f-46999ddfdb20",
+            "size": 8
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "7d24115c-4f54-489c-9729-3e7104145ed2",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "2de77ddf-31c0-4f41-b3c8-c7bf9eaa73f4",
+            "port": "in",
             "size": 8
           },
           "size": 8
