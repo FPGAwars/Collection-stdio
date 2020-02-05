@@ -5,7 +5,7 @@
     "version": "0.1",
     "description": "Input 2 chars in edit mode",
     "author": "Juan González-Gómez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22433.95%22%20height=%221368.852%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22red%22%20fill-rule=%22evenodd%22%20stroke=%22red%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22b%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M221.062%201023.277c-17.751%200-32.152%2014.4-32.152%2032.164%200%2017.746%2014.4%2032.177%2032.152%2032.177%2017.758%200%2032.053-14.432%2032.053-32.177%200-17.763-14.295-32.164-32.053-32.164zm64.466%2050.642l-5.795%2013.96%2010.336%2020.302%201.366%202.68-14.333%2014.332-23.515-11.106-13.96%205.733-7.086%2021.692-.906%202.879h-20.258l-8.767-24.484-13.96-5.758-20.333%2010.313-2.68%201.34-14.326-14.32%2011.093-23.528-5.751-13.948-21.655-7.074-2.873-.93v-20.246l24.502-8.78%205.752-13.935-10.306-20.345-1.359-2.668%2014.308-14.308%2023.547%2011.088%2013.941-5.764%207.08-21.679.912-2.873h20.252l8.773%2024.515%2013.923%205.764%2020.339-10.318%202.705-1.36%2014.32%2014.308-11.094%2023.51%205.733%2013.966%2021.717%207.08%202.854.912v20.24z%22%20fill=%22#00f%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%20-272.686%20348.764)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%22112.545%22%20y=%221238.321%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%22112.545%22%20y=%221238.321%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Eecho%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2222.541%22%20y=%2273.14%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2222.541%22%20y=%2273.14%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EINPUTLN%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M118.652%20229.326h134.3%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%2218%22%20marker-end=%22url(#a)%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20347.66)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2280.694%22%20y=%22179.208%22%20font-weight=%22400%22%20font-size=%2271.169%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20stroke-width=%224.448%22%3E%3Ctspan%20x=%2280.694%22%20y=%22179.208%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Estdout%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20109.784h429.559V287.9H1.5z%22/%3E%3Cpath%20d=%22M429.878%2018.574V1.5h-22.311M24.308%201309.058v58.294H85.67%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22round%22/%3E%3Cpath%20d=%22M118.652%20419.924h134.3%22%20fill=%22green%22%20stroke=%22green%22%20stroke-width=%2218%22%20marker-end=%22url(#b)%22/%3E%3Ccircle%20r=%2247.105%22%20cy=%221318.058%22%20cx=%22382.792%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%221.969%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M403.42%201344.997h-10.846v-60.908h-19.688v60.431H361.07%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%224.921%22%20stroke-linecap=%22round%22/%3E%3Ctext%20y=%22370.627%22%20x=%22113.344%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2268.273%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%20stroke-width=%224.267%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%22370.627%22%20x=%22113.344%22%20font-weight=%22500%22%3Estdin%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20303.45h429.559v167.378H1.5z%22/%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2243.586%22%20y=%22901.798%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2243.586%22%20y=%22901.798%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3ENxChar%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20539.987)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20719.693)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ccircle%20cx=%2269.304%22%20cy=%221318.058%22%20r=%2247.105%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%221.969%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M89.932%201344.997H79.086v-60.908H59.398v60.431H47.58%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%224.921%22%20stroke-linecap=%22round%22/%3E%3C/svg%3E",
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22433.95%22%20height=%221569.225%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22red%22%20fill-rule=%22evenodd%22%20stroke=%22red%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22b%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M198.5%20938.218c-17.752%200-32.153%2014.4-32.153%2032.164%200%2017.745%2014.4%2032.177%2032.152%2032.177%2017.758%200%2032.053-14.432%2032.053-32.177%200-17.764-14.295-32.164-32.053-32.164zm64.465%2050.641l-5.795%2013.96%2010.336%2020.302%201.366%202.68-14.333%2014.333-23.515-11.106-13.96%205.733-7.086%2021.691-.906%202.88h-20.258l-8.767-24.484-13.96-5.758-20.333%2010.312-2.68%201.34-14.326-14.32%2011.093-23.528-5.751-13.948-21.655-7.073-2.873-.93v-20.246l24.502-8.78%205.752-13.935-10.306-20.345-1.359-2.668%2014.308-14.308%2023.547%2011.088%2013.941-5.764%207.08-21.68.912-2.872h20.252l8.773%2024.515%2013.923%205.764%2020.339-10.319%202.705-1.359%2014.32%2014.308-11.094%2023.51%205.733%2013.966%2021.717%207.08%202.854.912v20.239z%22%20fill=%22#00f%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%20-272.686%20448.268)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2293.981%22%20y=%221168.424%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2293.981%22%20y=%221168.424%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Eecho%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2222.541%22%20y=%2273.14%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2222.541%22%20y=%2273.14%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EINPUTLN%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M118.652%20229.326h134.3%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%2218%22%20marker-end=%22url(#a)%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20355.077)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2280.694%22%20y=%22179.208%22%20font-weight=%22400%22%20font-size=%2271.169%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%20stroke-width=%224.448%22%3E%3Ctspan%20x=%2280.694%22%20y=%22179.208%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3Estdout%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20109.784h429.559V287.9H1.5z%22/%3E%3Cpath%20d=%22M429.878%2018.574V1.5h-22.311M12.195%201509.43v58.295h61.363%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22round%22/%3E%3Cpath%20d=%22M118.652%20419.924h134.3%22%20fill=%22green%22%20stroke=%22green%22%20stroke-width=%2218%22%20marker-end=%22url(#b)%22/%3E%3Ccircle%20r=%2247.105%22%20cy=%221518.431%22%20cx=%22382.792%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%221.969%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M403.42%201545.37h-10.846v-60.908h-19.688v60.43H361.07%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%224.921%22%20stroke-linecap=%22round%22/%3E%3Ctext%20y=%22370.627%22%20x=%22113.344%22%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20font-weight=%22400%22%20font-size=%2268.273%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%20stroke-width=%224.267%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20y=%22370.627%22%20x=%22113.344%22%20font-weight=%22500%22%3Estdin%3C/tspan%3E%3C/text%3E%3Cpath%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20d=%22M1.5%20303.45h429.559v167.378H1.5z%22/%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2269.124%22%20y=%22835.222%22%20font-weight=%22400%22%20font-size=%2291.605%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%225.725%22%3E%3Ctspan%20x=%2269.124%22%20y=%22835.222%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3E2xChar%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20738.444)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%2060.37%20918.15)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ccircle%20cx=%2257.192%22%20cy=%221518.431%22%20r=%2247.105%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%221.969%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M77.82%201545.37H66.974v-60.908H47.285v60.43H35.47%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%224.921%22%20stroke-linecap=%22round%22/%3E%3Cg%20transform=%22matrix(3.23542%200%200%203.23542%20-272.686%201041.374)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
     "otid": 1580629349911
   },
   "design": {
@@ -127,8 +127,7 @@
           "data": {
             "blockColor": "navy",
             "name": "bs_ok",
-            "oldBlockColor": "navy",
-            "virtual": true
+            "oldBlockColor": "navy"
           },
           "position": {
             "x": 1248,
@@ -237,8 +236,7 @@
           "data": {
             "blockColor": "steelblue",
             "name": "init",
-            "oldBlockColor": "steelblue",
-            "virtual": true
+            "oldBlockColor": "steelblue"
           },
           "position": {
             "x": 584,
@@ -306,15 +304,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "change",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": "change"
           },
           "position": {
             "x": 424,
@@ -327,8 +317,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "rst",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 736,
@@ -381,14 +370,6 @@
           "data": {
             "blockColor": "springgreen",
             "name": "full",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "springgreen"
           },
           "position": {
@@ -415,8 +396,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "rst",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 1192,
@@ -431,8 +411,7 @@
             "name": "stdin",
             "range": "[8:0]",
             "oldBlockColor": "darkgreen",
-            "size": 9,
-            "virtual": true
+            "size": 9
           },
           "position": {
             "x": -248,
@@ -468,15 +447,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "ins_data",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": "ins_data"
           },
           "position": {
             "x": 1048,
@@ -536,8 +507,7 @@
           "data": {
             "blockColor": "deepskyblue",
             "name": "enter",
-            "oldBlockColor": "deepskyblue",
-            "virtual": true
+            "oldBlockColor": "deepskyblue"
           },
           "position": {
             "x": 1048,
@@ -595,14 +565,6 @@
           "data": {
             "blockColor": "springgreen",
             "name": "empty",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "deepskyblue"
           },
           "position": {
@@ -684,50 +646,8 @@
           "data": {
             "name": "data",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "blockColor": "fuchsia"
+            "blockColor": "fuchsia",
+            "size": 8
           },
           "position": {
             "x": 824,
@@ -767,6 +687,26 @@
           }
         },
         {
+          "id": "4c841e46-d16a-435d-b98c-2f3cec61e18a",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "dump",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 1200,
+            "y": 904
+          }
+        },
+        {
           "id": "acfa705c-d88b-46a6-8311-37cb7f4219f2",
           "type": "basic.outputLabel",
           "data": {
@@ -785,8 +725,7 @@
           "data": {
             "blockColor": "deepskyblue",
             "name": "enter",
-            "oldBlockColor": "deepskyblue",
-            "virtual": true
+            "oldBlockColor": "deepskyblue"
           },
           "position": {
             "x": 608,
@@ -819,33 +758,11 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "next",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 1232,
             "y": 968
-          }
-        },
-        {
-          "id": "ff3ce3f2-bc26-46cd-a761-8dc9b041140f",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "navy",
-            "name": "bs_ok",
-            "oldBlockColor": "navy",
-            "virtual": true
-          },
-          "position": {
-            "x": 1056,
-            "y": 1056
           }
         },
         {
@@ -856,8 +773,47 @@
             "name": "clk"
           },
           "position": {
-            "x": 904,
-            "y": 1096
+            "x": 800,
+            "y": 984
+          }
+        },
+        {
+          "id": "ff3ce3f2-bc26-46cd-a761-8dc9b041140f",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "navy",
+            "name": "bs_ok",
+            "oldBlockColor": "navy"
+          },
+          "position": {
+            "x": 1056,
+            "y": 1056
+          }
+        },
+        {
+          "id": "e8bc245f-29b9-45ed-b265-f233ec6b67cb",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "cmd",
+            "oldBlockColor": "fuchsia",
+            "virtual": true
+          },
+          "position": {
+            "x": 1976,
+            "y": 1072
+          }
+        },
+        {
+          "id": "ba07ca6b-42e0-4c22-8413-7b11f9a2888f",
+          "type": "basic.output",
+          "data": {
+            "name": "cmd",
+            "virtual": false
+          },
+          "position": {
+            "x": 2160,
+            "y": 1072
           }
         },
         {
@@ -868,12 +824,31 @@
             "name": "stdin",
             "range": "[8:0]",
             "oldBlockColor": "darkgreen",
-            "size": 9,
-            "virtual": true
+            "size": 9
           },
           "position": {
             "x": -248,
             "y": 1096
+          }
+        },
+        {
+          "id": "2112141c-3792-404a-96bb-04f8cab7e2c0",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "cmd",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 1088,
+            "y": 1160
           }
         },
         {
@@ -930,8 +905,7 @@
           "data": {
             "blockColor": "darkgreen",
             "name": "busy",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 248,
@@ -1002,19 +976,7 @@
             "blockColor": "fuchsia",
             "name": "n",
             "range": "[1:0]",
-            "pins": [
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "size": 2
           },
           "position": {
             "x": 1256,
@@ -1135,8 +1097,7 @@
           "data": {
             "blockColor": "steelblue",
             "name": "start",
-            "oldBlockColor": "steelblue",
-            "virtual": true
+            "oldBlockColor": "steelblue"
           },
           "position": {
             "x": 512,
@@ -1178,25 +1139,25 @@
           }
         },
         {
+          "id": "cbc364c3-e565-47fe-a8cd-55654d791776",
+          "type": "basic.input",
+          "data": {
+            "name": "nc",
+            "clock": false
+          },
+          "position": {
+            "x": -216,
+            "y": 1576
+          }
+        },
+        {
           "id": "51324b9f-0bcc-4a4a-bb00-7413f4d61816",
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
             "name": "n",
             "range": "[1:0]",
-            "pins": [
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "size": 2
           },
           "position": {
             "x": 1248,
@@ -1225,18 +1186,6 @@
           }
         },
         {
-          "id": "f9fffd21-a546-48e2-b803-9cb1987b5174",
-          "type": "basic.input",
-          "data": {
-            "name": "nc",
-            "clock": false
-          },
-          "position": {
-            "x": -216,
-            "y": 1608
-          }
-        },
-        {
           "id": "bd921b26-ccd3-48eb-a4c8-810510e4bdc6",
           "type": "basic.inputLabel",
           "data": {
@@ -1258,6 +1207,40 @@
           }
         },
         {
+          "id": "f9fffd21-a546-48e2-b803-9cb1987b5174",
+          "type": "basic.input",
+          "data": {
+            "name": "dump",
+            "clock": false,
+            "virtual": false
+          },
+          "position": {
+            "x": -200,
+            "y": 1664
+          }
+        },
+        {
+          "id": "ed0c11bc-c62d-453d-b1d0-911a00d9cfc6",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "dump",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": -64,
+            "y": 1664
+          }
+        },
+        {
           "id": "43dc4dd6-8200-47bc-9bb3-bd73c2450fc1",
           "type": "basic.outputLabel",
           "data": {
@@ -1271,31 +1254,11 @@
           }
         },
         {
-          "id": "cbc364c3-e565-47fe-a8cd-55654d791776",
-          "type": "basic.input",
-          "data": {
-            "name": "nc",
-            "clock": false
-          },
-          "position": {
-            "x": -216,
-            "y": 1680
-          }
-        },
-        {
           "id": "a24cfb29-b328-434e-8260-a53057b79dbc",
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "end",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": "end"
           },
           "position": {
             "x": 344,
@@ -1307,8 +1270,7 @@
           "type": "basic.input",
           "data": {
             "name": "next",
-            "clock": false,
-            "virtual": false
+            "clock": false
           },
           "position": {
             "x": -216,
@@ -1915,8 +1877,8 @@
           "id": "7614be64-2f63-4c65-aa61-97ba1c363d68",
           "type": "1c7dae7144d376f2ee4896fcc502a29110e2db37",
           "position": {
-            "x": 1032,
-            "y": 1144
+            "x": 936,
+            "y": 1160
           },
           "size": {
             "width": 96,
@@ -2115,12 +2077,12 @@
           "id": "3818beaf-453c-401c-a559-841e489ce0a6",
           "type": "basic.info",
           "data": {
-            "info": "One cycle after the ENTER  \nkey is pressed, the dump  \nstarts",
+            "info": "One cycle after the ENTER  \nkey is pressed, the  cmd is  \navailable in the buffer to read",
             "readonly": true
           },
           "position": {
-            "x": 992,
-            "y": 1224
+            "x": 1032,
+            "y": 1232
           },
           "size": {
             "width": 256,
@@ -2849,6 +2811,46 @@
         },
         {
           "source": {
+            "block": "7614be64-2f63-4c65-aa61-97ba1c363d68",
+            "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
+          },
+          "target": {
+            "block": "2112141c-3792-404a-96bb-04f8cab7e2c0",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "e8bc245f-29b9-45ed-b265-f233ec6b67cb",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "ba07ca6b-42e0-4c22-8413-7b11f9a2888f",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "f9fffd21-a546-48e2-b803-9cb1987b5174",
+            "port": "out"
+          },
+          "target": {
+            "block": "ed0c11bc-c62d-453d-b1d0-911a00d9cfc6",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "4c841e46-d16a-435d-b98c-2f3cec61e18a",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "1020c9c4-f47a-4ee7-8714-013d3492161a",
+            "port": "a5d15226-0020-4f26-9b15-c9bb81fc2056"
+          }
+        },
+        {
+          "source": {
             "block": "3d110275-cd5e-4e36-bce7-8bf1b374f96a",
             "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
@@ -3152,22 +3154,6 @@
           },
           "vertices": [],
           "size": 8
-        },
-        {
-          "source": {
-            "block": "7614be64-2f63-4c65-aa61-97ba1c363d68",
-            "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
-          },
-          "target": {
-            "block": "1020c9c4-f47a-4ee7-8714-013d3492161a",
-            "port": "a5d15226-0020-4f26-9b15-c9bb81fc2056"
-          },
-          "vertices": [
-            {
-              "x": 1216,
-              "y": 1136
-            }
-          ]
         },
         {
           "source": {
