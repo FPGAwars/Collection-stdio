@@ -26,8 +26,8 @@
             "virtual": false
           },
           "position": {
-            "x": 1576,
-            "y": -80
+            "x": 1600,
+            "y": -8
           }
         },
         {
@@ -300,6 +300,22 @@
           "size": {
             "width": 96,
             "height": 160
+          }
+        },
+        {
+          "id": "7184ed6f-9550-4dfa-8671-fc9791d6e738",
+          "type": "basic.info",
+          "data": {
+            "info": "## PrintLN-BitVar-01\n\nThe state of the SW1 button is printed on the  \nconsole. The variable a is assigned. In the console you will  \nsee the value of the a varible:  \n```\na1\na0\n...\n```\n\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 656,
+            "y": -216
+          },
+          "size": {
+            "width": 464,
+            "height": 144
           }
         }
       ],
