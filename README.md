@@ -1,7 +1,7 @@
 # Stdio Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v0.3.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v0.4.0-orange.svg)
 
 Blocks for Standad Input-Output in different devices.
 
@@ -9,14 +9,16 @@ Blocks for Standad Input-Output in different devices.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-stdio/archive/v0.3.0.zip) or [development](https://github.com/FPGAwars/Collection-stdio/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-stdio/archive/v0.4.0.zip) or [development](https://github.com/FPGAwars/Collection-stdio/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
 ## Blocks
 * *Bus*
+  * stdin-stdout-adaptor-2
   * stdin-stdout-adaptor
   * *stdin*
+    * stdin-enable
     * stdin-joiner
     * stdin-mixer
     * stdin-spliter
@@ -27,13 +29,16 @@ Blocks for Standad Input-Output in different devices.
     * next-out
     * spliter-2-data-tic
 * *Debug*
+  * Hterm-toggle
   * Print-str
+  * PrintLn-Char
   * PrintLn-OK
   * PrintLn-base-4
   * PrintLn-bit
   * hterm-bit-stdout
   * hterm-bit
   * hterm-bitx2
+  * virtual-toggle-button
   * *Memory*
     * *02-bits*
       * Print-ram-2x1-bit
@@ -45,15 +50,22 @@ Blocks for Standad Input-Output in different devices.
   * stdout-LEDs-8
   * stdout-serial
 * *Others*
+  * *Filters*
+    * Printable-nl-del
   * *Getc*
     * Getc-bit
     * Getc-char
+    * Getc-printable-char
   * *InputLn*
+    * inputln-2xchars-echo
     * inputln-bit-echo
     * inputln-bitx2-echo
+    * inputln-char-echo
   * *Input_*
     * input-bit-echo
     * input-bit
+    * input-printable-char-echo
+    * input-printable-char
   * *Print*
     * Print-base4-bin
     * Print-str-02
@@ -74,9 +86,11 @@ Blocks for Standad Input-Output in different devices.
       * Print-asc-32
       * Print-asc-64
   * *PrintLn*
+    * PrintLn-BitVar
     * PrintLn-OK
     * PrintLn-base-4
     * PrintLn-bit
+    * PrintLn-char
   * *Putc*
     * putc-base4
     * putc-bit
@@ -84,12 +98,18 @@ Blocks for Standad Input-Output in different devices.
     * putc-char
   * *Regs*
     * 08-bits-shift-right-load-rst
+  * *Syntax*
+    * Syntax-ELSE
+    * Syntax-EOL
+    * Syntax-bit
+    * Syntax-char
 
 ## Examples
 * *Debug*
   * 2x1-bits-memory-test
   * Base4-counter
   * Hello-world
+  * Hterm-toggle-LED
   * Mini-local-input-console-test-01
   * Mini-local-input-console-test-02
   * hterm-bit-stdout-test-1-2x1-memory
@@ -98,6 +118,7 @@ Blocks for Standad Input-Output in different devices.
   * hterm-bit-test-1
   * hterm-bitx2-test-1-LEDs
   * ok-button
+  * virtual-toggle-button-test
 * *General*
   * 01-print-matrix
   * 02-Button-state-ANSI
@@ -117,15 +138,20 @@ Blocks for Standad Input-Output in different devices.
   * getc-char-01
   * getc-char-02
   * getc-char-03
+  * getc-pritnable-char-01
 * *InputLn*
   * inputln-bit-test-01-led-on-off
   * inputln-bitx2-test-01-LEDs
+  * inputln-char-test-01-LEDs
+  * inputln-charx2-cmd-echo
 * *Input_*
   * Input-bit-01
   * Input-bit-02
   * Input-bit-03
   * Input-bit-04
   * Input-bit-05
+  * input-printable-char-01
+  * input-printable-char-echo-01
 * *Input_echo*
   * 01-input-bit-button
   * 02-input-bit-hterm-01
@@ -157,6 +183,7 @@ Blocks for Standad Input-Output in different devices.
       * Test-print-str-32
       * Test-print-str-64
 * *PrintLn*
+  * PrintLn-BitVar-01
   * PrintLn-base4-01-counter
   * PrintLn-bit-01-button
   * Println-ok-01-button
@@ -180,6 +207,8 @@ Blocks for Standad Input-Output in different devices.
     * putc-char-06
     * putc-char-07
     * putc-char-08
+* *Syntax*
+  * Syntax-char-toggle-led
 * *stdin-stdout*
   * stdout-LEDx8-test-01
   * stdout-LEDx8-test-02
