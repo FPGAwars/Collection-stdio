@@ -644,8 +644,7 @@
         {
           "source": {
             "block": "46e21ec8-6715-4276-937d-c1e557ac77f7",
-            "port": "93defa79-7f79-4614-8e5b-17ceacc8c7cf",
-            "size": 10
+            "port": "93defa79-7f79-4614-8e5b-17ceacc8c7cf"
           },
           "target": {
             "block": "313344f8-ee41-4676-8eb9-428bcefd091a",
@@ -696,8 +695,7 @@
           },
           "target": {
             "block": "779caf75-4344-48e7-9242-d1cfdf67cafe",
-            "port": "00f2c06b-310f-42f2-89dc-c6033e73124c",
-            "size": 10
+            "port": "00f2c06b-310f-42f2-89dc-c6033e73124c"
           },
           "size": 10
         },
@@ -710,30 +708,6 @@
             "block": "779caf75-4344-48e7-9242-d1cfdf67cafe",
             "port": "d6a43752-0510-47ff-995a-7ce13b162bc7"
           }
-        },
-        {
-          "source": {
-            "block": "07fb2c91-4565-47b0-9a2e-9b6e5cacd787",
-            "port": "bf745bae-936e-4767-95ad-d294bb6af0ab",
-            "size": 16
-          },
-          "target": {
-            "block": "26477721-fab1-45db-a392-eebceac9891f",
-            "port": "inlabel"
-          },
-          "size": 16
-        },
-        {
-          "source": {
-            "block": "dfab799e-b3a7-4f0e-8c17-bc5cd816b0b1",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "779caf75-4344-48e7-9242-d1cfdf67cafe",
-            "port": "653493fb-a412-41b7-9861-aca74f43278c",
-            "size": 16
-          },
-          "size": 16
         },
         {
           "source": {
@@ -855,6 +829,28 @@
           "target": {
             "block": "07fb2c91-4565-47b0-9a2e-9b6e5cacd787",
             "port": "f35a5a72-f387-4e19-b107-8fa1a9c9b968"
+          },
+          "size": 16
+        },
+        {
+          "source": {
+            "block": "07fb2c91-4565-47b0-9a2e-9b6e5cacd787",
+            "port": "bf745bae-936e-4767-95ad-d294bb6af0ab"
+          },
+          "target": {
+            "block": "26477721-fab1-45db-a392-eebceac9891f",
+            "port": "inlabel"
+          },
+          "size": 16
+        },
+        {
+          "source": {
+            "block": "dfab799e-b3a7-4f0e-8c17-bc5cd816b0b1",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "779caf75-4344-48e7-9242-d1cfdf67cafe",
+            "port": "653493fb-a412-41b7-9861-aca74f43278c"
           },
           "size": 16
         }
