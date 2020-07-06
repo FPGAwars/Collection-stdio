@@ -5,7 +5,7 @@
     "version": "0.1",
     "description": "Print an 8-bits number in hexadecimal. Sysclk param",
     "author": "Juan González-Gómez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20260.67348%20278.54353%22%20width=%22278.051%22%20height=%22297.111%22%3E%3Cg%20transform=%22translate(365.751%20-95.1)%20scale(1.04907)%22%20stroke=%22#000%22%3E%3Cpath%20d=%22M-170.798%20177.526l.315%2036.011%2040.397-37.263v-33.51z%22%20fill=%22#fff%22%20stroke-width=%223.541%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-308.584%20177.892l53.235-35.7%20124.635.628-39.456%2035.7%22%20fill=%22#fff%22%20stroke-width=%223.541%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Crect%20x=%22-308.895%22%20y=%22178.153%22%20width=%22139.039%22%20height=%2236.325%22%20ry=%223.509%22%20fill=%22#fff%22%20stroke-width=%223.541%22%20stroke-linecap=%22square%22/%3E%3Cg%20transform=%22matrix(1.88858%200%200%201.88858%20-312.436%20138.651)%22%20stroke-width=%22.938%22%20stroke-linecap=%22square%22%3E%3Ccircle%20r=%223.15%22%20cx=%2211.326%22%20cy=%2230.367%22%20fill=%22red%22/%3E%3Ccircle%20r=%223.15%22%20cx=%2220.611%22%20cy=%2230.367%22%20fill=%22#faa%22/%3E%3Ccircle%20r=%223.15%22%20cx=%2262.82%22%20cy=%2230.367%22%20fill=%22green%22/%3E%3Ccircle%20r=%223.15%22%20cx=%2230.554%22%20cy=%2230.367%22%20fill=%22red%22/%3E%3C/g%3E%3C/g%3E%3Ctext%20transform=%22scale(.99853%201.00147)%22%20word-spacing=%220%22%20letter-spacing=%220%22%20font-size=%2294.276%22%20font-weight=%22400%22%20style=%22line-height:0%25%22%20x=%2232%22%20y=%2240.93%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%221.749%22%3E%3Ctspan%20font-size=%2253.872%22%20font-weight=%22700%22%20x=%2232%22%20y=%2240.93%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%3EPrintln%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22translate(-63.853%2029.303)%20scale(2.8106)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-240.978%2029.303)%20scale(2.8106)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20transform=%22scale(.99853%201.00147)%22%20word-spacing=%220%22%20letter-spacing=%220%22%20font-size=%22101.209%22%20font-weight=%22400%22%20style=%22line-height:0%25%22%20x=%2280.086%22%20y=%22192.277%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%221.877%22%3E%3Ctspan%20font-size=%2257.834%22%20font-weight=%22700%22%20x=%2280.086%22%20y=%22192.277%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%3EBin%3C/tspan%3E%3C/text%3E%3C/svg%3E",
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20height=%22297.111%22%20width=%22278.051%22%20viewBox=%220%200%20260.67348%20278.54353%22%3E%3Cg%20transform=%22translate(365.751%20-95.1)%20scale(1.04907)%22%20stroke=%22#000%22%3E%3Cpath%20d=%22M-170.798%20177.526l.315%2036.011%2040.397-37.263v-33.51z%22%20fill=%22#fff%22%20stroke-width=%223.541%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-308.584%20177.892l53.235-35.7%20124.635.628-39.456%2035.7%22%20fill=%22#fff%22%20stroke-width=%223.541%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Crect%20ry=%223.509%22%20height=%2236.325%22%20width=%22139.039%22%20y=%22178.153%22%20x=%22-308.895%22%20fill=%22#fff%22%20stroke-width=%223.541%22%20stroke-linecap=%22square%22/%3E%3Cg%20transform=%22matrix(1.88858%200%200%201.88858%20-312.436%20138.651)%22%20stroke-width=%22.938%22%20stroke-linecap=%22square%22%3E%3Ccircle%20cy=%2230.367%22%20cx=%2211.326%22%20r=%223.15%22%20fill=%22red%22/%3E%3Ccircle%20cy=%2230.367%22%20cx=%2220.611%22%20r=%223.15%22%20fill=%22#faa%22/%3E%3Ccircle%20cy=%2230.367%22%20cx=%2262.82%22%20r=%223.15%22%20fill=%22green%22/%3E%3Ccircle%20cy=%2230.367%22%20cx=%2230.554%22%20r=%223.15%22%20fill=%22red%22/%3E%3C/g%3E%3C/g%3E%3Ctext%20y=%2240.93%22%20x=%2232%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%2294.276%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22scale(.99853%201.00147)%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%221.749%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2240.93%22%20x=%2232%22%20font-weight=%22700%22%20font-size=%2253.872%22%3EPrintln%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22translate(-63.853%2029.303)%20scale(2.8106)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-240.978%2029.303)%20scale(2.8106)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Ctext%20y=%22191.274%22%20x=%2270.373%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%22101.209%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22scale(.99853%201.00147)%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%221.877%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22191.274%22%20x=%2270.373%22%20font-weight=%22700%22%20font-size=%2257.834%22%3EHex%3C/tspan%3E%3C/text%3E%3C/svg%3E",
     "otid": 1593246159107
   },
   "design": {
@@ -192,50 +192,8 @@
           "data": {
             "name": "n",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
-            "clock": false
+            "clock": false,
+            "size": 8
           },
           "position": {
             "x": -176,
@@ -391,50 +349,8 @@
           "data": {
             "name": "n",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "blockColor": "fuchsia"
+            "blockColor": "fuchsia",
+            "size": 8
           },
           "position": {
             "x": 184,
