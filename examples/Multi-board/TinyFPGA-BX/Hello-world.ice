@@ -50,58 +50,29 @@
           }
         },
         {
-          "id": "bbf6f9ea-9c2c-4ff0-8f81-3bbb4e903f4b",
+          "id": "34b66a3d-f623-4394-b25e-74381a499597",
           "type": "basic.constant",
           "data": {
-            "name": "",
-            "value": "1",
-            "local": false
-          },
-          "position": {
-            "x": 504,
-            "y": 264
-          }
-        },
-        {
-          "id": "667cb848-c63c-4ba6-9f08-067d99336a25",
-          "type": "basic.constant",
-          "data": {
-            "name": "",
+            "name": "Message",
             "value": "\"Hello World!\\n\"",
             "local": false
           },
           "position": {
-            "x": 632,
-            "y": 224
+            "x": 640,
+            "y": 256
           }
         },
         {
           "id": "70a5e3d5-ab65-4362-86a1-6b89eec7225a",
           "type": "basic.constant",
           "data": {
-            "name": "Sysclk",
+            "name": "16MHz",
             "value": "16000000",
             "local": false
           },
           "position": {
             "x": 792,
             "y": 248
-          }
-        },
-        {
-          "id": "58a6e938-12e5-40b0-9860-77fb99512db7",
-          "type": "basic.info",
-          "data": {
-            "info": "## Hello World\n\nIt prints the string \"Hello World\"  \nafter every second (aproximatelly)",
-            "readonly": true
-          },
-          "position": {
-            "x": 384,
-            "y": 128
-          },
-          "size": {
-            "width": 360,
-            "height": 96
           }
         },
         {
@@ -139,19 +110,57 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "f6bfd368-9ef2-40d9-a84e-fd826cc5218b",
+          "type": "basic.info",
+          "data": {
+            "info": "## Hello World\n\nIt prints the string \"Hello World\"  \nrepeteadly \n\n```\nHello World!\nHello World!\nHello World!\n...\n```",
+            "readonly": true
+          },
+          "position": {
+            "x": 264,
+            "y": 112
+          },
+          "size": {
+            "width": 336,
+            "height": 184
+          }
+        },
+        {
+          "id": "40571da1-7e49-4973-8bc5-4c605a28b466",
+          "type": "basic.info",
+          "data": {
+            "info": "TinyFPGA BX System clock",
+            "readonly": true
+          },
+          "position": {
+            "x": 752,
+            "y": 200
+          },
+          "size": {
+            "width": 216,
+            "height": 48
+          }
+        },
+        {
+          "id": "4f2fea22-1775-462c-bbad-86aeddafb25a",
+          "type": "basic.info",
+          "data": {
+            "info": "T Flip-Flop",
+            "readonly": true
+          },
+          "position": {
+            "x": 728,
+            "y": 576
+          },
+          "size": {
+            "width": 120,
+            "height": 40
+          }
         }
       ],
       "wires": [
-        {
-          "source": {
-            "block": "667cb848-c63c-4ba6-9f08-067d99336a25",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "a8928342-7778-4b98-a7b2-28905b886ec3",
-            "port": "6e4cddcc-f4b2-495a-a6df-9ba84208e3f6"
-          }
-        },
         {
           "source": {
             "block": "a8928342-7778-4b98-a7b2-28905b886ec3",
@@ -184,16 +193,6 @@
         },
         {
           "source": {
-            "block": "bbf6f9ea-9c2c-4ff0-8f81-3bbb4e903f4b",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "5456a36e-3aa3-4299-833f-e87834c57f0c",
-            "port": "136e8d6d-892a-4f14-8d6d-0c5bc6c3e844"
-          }
-        },
-        {
-          "source": {
             "block": "1ba5604c-81a5-414d-89f3-5c3bc47697f7",
             "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
           },
@@ -217,6 +216,16 @@
               "y": 464
             }
           ]
+        },
+        {
+          "source": {
+            "block": "34b66a3d-f623-4394-b25e-74381a499597",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "a8928342-7778-4b98-a7b2-28905b886ec3",
+            "port": "6e4cddcc-f4b2-495a-a6df-9ba84208e3f6"
+          }
         }
       ]
     }
