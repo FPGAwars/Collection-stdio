@@ -1,111 +1,151 @@
+
+
 # Stdio Collection
 
-[![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v0.4.0-orange.svg)
+[![Icestudio][icestudio-image]][icestudio-url]
+![Version][version-image]
 
-Blocks for Standad Input-Output in different devices.
 
-![](wiki/icestudio-stdio-logo.png)
+Blocks for Standad Input-Output in different devices
+
+
+## License
+
+Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-stdio/archive/v0.4.0.zip) or [development](https://github.com/FPGAwars/Collection-stdio/archive/master.zip)
+For installing and using this colection in Icestudio follow these steps:
+
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-stdio/archive/refs/tags/v0.5.0.zip) or [development](https://github.com/FPGAwars/Collection-stdio/archive/refs/heads/master.zip)
 * Install the collection: *Tools > Collections > Add*
-* Load the collection: *Select > Collection*
+* Select the collection: *Select > Collection*
+
 
 ## Blocks
-* *Bus*
+* **Bus**
   * stdin-stdout-adaptor-2
   * stdin-stdout-adaptor
-  * *stdin*
+  * **stdin**
     * stdin-enable
     * stdin-joiner
     * stdin-mixer
     * stdin-spliter
-  * *stdout*
+  * **stdout**
     * adder-data-tic
     * joiner-2-data-tic
     * next-in
     * next-out
     * spliter-2-data-tic
-* *Debug*
+* **Debug**
   * Hterm-toggle
   * Print-str
+  * PrintLn-Bin16
   * PrintLn-Char
+  * PrintLn-Hex8-sysclk
   * PrintLn-OK
+  * PrintLn-Uint8-sysclk
   * PrintLn-base-4
   * PrintLn-bit
   * hterm-bit-stdout
   * hterm-bit
+  * hterm-bitx2-stdout
   * hterm-bitx2
   * virtual-toggle-button
-  * *Memory*
-    * *02-bits*
+  * **Memory**
+    * **02-bits**
       * Print-ram-2x1-bit
-* *Device*
+* **Device**
+  * Bufferx1
   * Serial-rx
-  * Serial-tx
   * stdin-bin-keyboardX4
   * stdin-serial
+  * stdout-LEDs-8-rst
   * stdout-LEDs-8
+  * stdout-serial-buffer
+  * stdout-serial-sysclk
   * stdout-serial
-* *Others*
-  * *Filters*
+* **Others**
+  * **Filters**
     * Printable-nl-del
-  * *Getc*
+  * **Getc**
     * Getc-bit
     * Getc-char
     * Getc-printable-char
-  * *InputLn*
+  * **InputLn**
     * inputln-2xchars-echo
     * inputln-bit-echo
     * inputln-bitx2-echo
     * inputln-char-echo
-  * *Input_*
+  * **Input_**
     * input-bit-echo
     * input-bit
     * input-printable-char-echo
     * input-printable-char
-  * *Print*
-    * Print-base4-bin
-    * Print-str-02
-    * Print-str-04
-    * Print-str-08
-    * Print-str-128
-    * Print-str-16
-    * Print-str-256
-    * Print-str-32
-    * Print-str-64
-    * *asc*
-      * Print-asc-02
-      * Print-asc-04
-      * Print-asc-08
-      * Print-asc-128
-      * Print-asc-16
-      * Print-asc-256
-      * Print-asc-32
-      * Print-asc-64
-  * *PrintLn*
+  * **Print**
+    * **Print-bin**
+      * Print-base4-bin
+      * Print-bin-03-bits
+      * Print-bin-04-bits
+      * Print-bin-08-bits
+      * Print-bin-16-bits
+    * **Print-hex**
+      * Print-hex-12bits
+      * Print-hex-16bits
+      * Print-hex-32bits
+      * Print-hex-8bits
+    * **Print-int**
+      * Print-int12
+      * Print-int16
+      * Print-int4
+      * Print-int8
+    * **Print-strl-delay**
+      * Print-delay-str-0064
+    * **Print-uint**
+      * Print-uint12
+      * Print-uint16
+      * Print-uint4
+      * Print-uint8
+    * **asc**
+      * Print-asc-0002
+      * Print-asc-0004
+      * Print-asc-0008
+      * Print-asc-0016
+      * Print-asc-0032
+      * Print-asc-0064
+      * Print-asc-0128
+      * Print-asc-0256
+    * **print-str**
+      * Print-str-0002
+      * Print-str-0004
+      * Print-str-0008
+      * Print-str-0016
+      * Print-str-0032
+      * Print-str-0064
+      * Print-str-0128
+      * Print-str-0256
+  * **PrintLn**
     * PrintLn-BitVar
     * PrintLn-OK
     * PrintLn-base-4
     * PrintLn-bit
     * PrintLn-char
-  * *Putc*
+  * **Putc**
     * putc-base4
     * putc-bit
     * putc-char-const
     * putc-char
-  * *Regs*
+    * putc-hex
+  * **Regs**
     * 08-bits-shift-right-load-rst
-  * *Syntax*
+  * **Syntax**
     * Syntax-ELSE
     * Syntax-EOL
     * Syntax-bit
     * Syntax-char
 
 ## Examples
-* *Debug*
+* **Debug**
   * 2x1-bits-memory-test
   * Base4-counter
   * Hello-world
@@ -119,7 +159,7 @@ Blocks for Standad Input-Output in different devices.
   * hterm-bitx2-test-1-LEDs
   * ok-button
   * virtual-toggle-button-test
-* *General*
+* **General**
   * 01-print-matrix
   * 02-Button-state-ANSI
   * 03-cowsay-bin
@@ -131,7 +171,8 @@ Blocks for Standad Input-Output in different devices.
   * 09-Hcalc-stack
   * 10-Hcalc-two-elements-stack
   * 11-Hcalc-2bits-acumulator
-* *Getc*
+  * 12-Ansi-bouncing-ball
+* **Getc**
   * getc-bit-01
   * getc-bit-02
   * getc-bit-03
@@ -139,12 +180,12 @@ Blocks for Standad Input-Output in different devices.
   * getc-char-02
   * getc-char-03
   * getc-pritnable-char-01
-* *InputLn*
+* **InputLn**
   * inputln-bit-test-01-led-on-off
   * inputln-bitx2-test-01-LEDs
   * inputln-char-test-01-LEDs
   * inputln-charx2-cmd-echo
-* *Input_*
+* **Input_**
   * Input-bit-01
   * Input-bit-02
   * Input-bit-03
@@ -152,19 +193,47 @@ Blocks for Standad Input-Output in different devices.
   * Input-bit-05
   * input-printable-char-01
   * input-printable-char-echo-01
-* *Input_echo*
+* **Input_echo**
   * 01-input-bit-button
   * 02-input-bit-hterm-01
   * 03-input-bit-hterm-02
-* *Print*
+* **Multi-board**
+  * **Alhambra-II**
+    * Hello-world
+  * **Blackice-I**
+    * Hello-world
+  * **Icestick**
+    * Hello-world
+  * **Lattice-Breakout-board**
+    * Hello-world
+  * **Nandland-Go-Board**
+    * Hello-world
+  * **TinyFPGA-BX**
+    * Hello-world
+  * **iCEBreaker**
+    * Hello-world
+* **Print**
   * Print-01-two-buttons
   * Print-02-two-buttons-ASCII-art
   * Print-03-menu
   * Print-04-str-two-buttons
   * Print-base4-bin-01-counter
   * Print-base4-bin-02-two-buttons
-  * *Test*
-    * *asc*
+  * Print-hex-01-Button-counter
+  * Print-hex-12-01-Button-table
+  * Print-hex-16-01-Button-table
+  * Print-uint12-test-01
+  * Print-uint16-test-01
+  * Print-uint4-01-button-counter
+  * Print-uint4-02-count
+  * Print-uint8-test-01
+  * print-int4-test-01
+  * **Print-int**
+    * print-int12-test-01
+    * print-int16-test-01
+    * print-int8-test-01
+  * **Test**
+    * **asc**
       * Test-print-asc-02
       * Test-print-asc-04
       * Test-print-asc-08
@@ -173,7 +242,7 @@ Blocks for Standad Input-Output in different devices.
       * Test-print-asc-256
       * Test-print-asc-32
       * Test-print-asc-64
-    * *str*
+    * **str**
       * Test-print-str-02
       * Test-print-str-04
       * Test-print-str-08
@@ -182,15 +251,15 @@ Blocks for Standad Input-Output in different devices.
       * Test-print-str-256
       * Test-print-str-32
       * Test-print-str-64
-* *PrintLn*
+* **PrintLn**
   * PrintLn-BitVar-01
   * PrintLn-base4-01-counter
   * PrintLn-bit-01-button
   * Println-ok-01-button
-* *Putc*
-  * *Putc-Base-4*
+* **Putc**
+  * **Putc-Base-4**
     * putc-base4-01
-  * *Putc-bit*
+  * **Putc-bit**
     * putc-bit-01
     * putc-bit-02
     * putc-bit-03-button-changed
@@ -198,7 +267,7 @@ Blocks for Standad Input-Output in different devices.
     * putc-bit-05-two-buttons2
     * putc-bit-06-AND-test
     * putc-bit-07-AND-test2
-  * *Putc-char*
+  * **Putc-char**
     * putc-char-01
     * putc-char-02
     * putc-char-03
@@ -207,20 +276,26 @@ Blocks for Standad Input-Output in different devices.
     * putc-char-06
     * putc-char-07
     * putc-char-08
-* *Syntax*
+  * **Putc-hex**
+    * 01-putc-hex-test1
+* **Syntax**
   * Syntax-char-toggle-led
-* *stdin-stdout*
+* **stdin-stdout**
   * stdout-LEDx8-test-01
   * stdout-LEDx8-test-02
   * stdout-LEDx8-test-03
   * stdout-LEDx8-test-04
   * stdout-LEDx8-test-05
 
-
 ## Authors
 * [Juan González-Gómez (Obijuan)](https://github.com/Obijuan)
 
 
-## License
 
-Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
+-------
+
+
+<!-- Badges -->
+[icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
+[icestudio-url]: https://github.com/FPGAwars/icestudio
+[version-image]: https://img.shields.io/badge/version-v0.4.0-orange.svg
